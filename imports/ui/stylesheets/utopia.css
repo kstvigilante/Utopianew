@@ -14,3 +14,15 @@ body{
     height: 2048px;
     background: red;
 }
+
+.section3{
+    width: 1440px;
+    height: 1268px;
+    background: yellow;
+}
+
+.section4{
+    width: 1440px;
+    height: 1983px;
+    background: blue;
+}
