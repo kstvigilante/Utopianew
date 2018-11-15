@@ -3,8 +3,70 @@ body {
 }
 @font-face {
   font-family: 'Colfax Regular';
-  font-style: normal;
-  font-weight: normal;
-  src: local('Colfax Regular'), url('/fonts/Colfax-Black.woff') format('woff');
+  src: url('/fonts/Colfax-Regular.woff');
   }
   
+  @font-face {
+  font-family: 'Colfax Regular Italic';
+  src:url('/fonts/Colfax-RegularItalic.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Thin';
+  src: url('/fonts/Colfax-Thin.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Thin Italic';
+  src: url('/fonts/Colfax-ThinItalic.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Light';
+  src:  url('/fonts/Colfax-Light.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Light Italic';
+  src: url('/fonts/Colfax-LightItalic.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Medium';
+  src:  url('/fonts/Colfax-Medium.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Medium Italic';
+  src: url('/fonts/Colfax-MediumItalic.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Bold';
+  src:  url('/fonts/Colfax-Bold.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Bold Italic';
+  src: url('/fonts/Colfax-BoldItalic.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Black';
+  src:url('/fonts/Colfax-Black.woff');
+  }
+  
+  
+  @font-face {
+  font-family: 'Colfax Black Italic';
+  src: url('/fonts/Colfax-BlackItalic.woff');
+  }
