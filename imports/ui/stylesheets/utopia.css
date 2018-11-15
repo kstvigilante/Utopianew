@@ -20,7 +20,8 @@ body{
 .section1 .logo{
     width: 140px;
     height: 50px;
-    background: red;
+    background-image: url("/img/section1logo.png");
+    background-size: 100% 100%;
     margin-top: 100px;
     margin-left: 68px;
     display: inline-block;
