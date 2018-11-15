@@ -2,3 +2,10 @@ body {
   padding: 10px;
   font-family: sans-serif;
 }
+@font-face {
+  font-family: 'Colfax Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Colfax Regular'), url('/fonts/Colfax-Black.woff') format('woff');
+  }
+  
