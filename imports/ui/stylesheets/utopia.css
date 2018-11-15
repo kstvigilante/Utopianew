@@ -491,7 +491,7 @@ display: inline-block;
     font-style: italic;
 }
 .section3{
-    width: 1440px;
+    width: 100%;
     height: 1268px;
 }
 
@@ -674,7 +674,7 @@ display: inline-block;
   .section3 .spending-class{
       margin-left: 60px;
       margin-right: 20px;
-      margin-top: 350px;
+      margin-top: 450px;
       height: 668px;
       width: 1171px;
   }
