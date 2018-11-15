@@ -714,3 +714,8 @@ display: inline-block;
       height: 668px;
       width: 1171px;
   }
+  .section .utopia-location {
+      height : 12px;
+      width : 14px;
+      background-color: #04030F;
+  }
