@@ -256,6 +256,28 @@ display: inline-block;
     overflow: hidden;
 }
 
+.section2 .button-group{
+    width: 84px;
+    height: 12px;
+    margin-top: 48px;
+}
+
+.section2 .button-group button{
+    width: 12px;
+    height: 12px;
+    background: white;
+    border-radius: 50%;
+}
+
+.section2 .button-group button:nth-child(2){
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.section2 .section2-button-group{
+    margin-left: 205px;
+}
+
 .section2 .wrapper{
     width: 1170px;
     height: 1728px;
@@ -291,7 +313,7 @@ display: inline-block;
 }
 
 .section2 .wrapper .part1 .container-left .my-balance{
-    background: purple;
+    background-image: url("/img/Background1.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
@@ -445,7 +467,7 @@ display: inline-block;
     width: 338px;
     height: 137px;
     margin-left: 36px;
-    background: orange;
+    background-image: url("/img/Background4.png");
     position: relative;
     top: -64px;
 }
