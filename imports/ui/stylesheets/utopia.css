@@ -1,668 +1,699 @@
-body{
-    padding: 0.1px;
-    margin: 0px;
-    color: white;
+body {
+  padding: 0.1px;
+  margin: 0px;
+  color: white;
 }
 
-.section1{
-    width: 100%;
-    height: 1320px;
+.section1 {
+  width: 100%;
+  height: 1320px;
 }
 
-
-
-.section1 .wrapper{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: 660px;
-    background: blue;
-    padding: 0.1px;
+.section1 .wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 660px;
+  background: blue;
+  padding: 0.1px;
 }
 
-.section1 .top-section{
-    flex:2;
-    display: flex;
-    flex-direction: column;
-     justify-content:flex-end; 
-    background: linear-gradient(
-        rgba(15, 12, 12, 0.5), 
-        rgba(26, 10, 10, 0.5)),
-        url( '/img/5aaf982a7c01d.jpg');
-        padding: 0.1px;
+.section1 .top-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background: linear-gradient(rgba(15, 12, 12, 0.5), rgba(26, 10, 10, 0.5)),
+    url("/img/5aaf982a7c01d.jpg");
+  padding: 0.1px;
 }
 
-.section1 .bottom-section{
-    flex:1;
-    background: white;
+.section1 .bottom-section {
+  flex: 1;
+  background: white;
 }
 
-.section1 .header{
-    width: 563px;
-    height: 295px;
-    margin-top: 26px;
-    margin-left: 48px;
-    
+.section1 .header {
+  width: 563px;
+  height: 295px;
+  margin-top: 26px;
+  margin-left: 48px;
 }
 
-.section1 .info{
-  margin-left: 200px; 
+.section1 .info {
+  margin-left: 200px;
   margin-bottom: 200px;
-  height:598px;
+  height: 598px;
   width: 350px;
-  
+
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-     .info-container-r {
-        width: 10px;
-        height: 95px;
-        margin-top: 26px;
-        margin-left: 5px;
-        margin-right: 5px;
-        flex: 1;
-    } 
-   
-.section1 .blockchain {
-    
-    height: 45px;
+.info-container-r {
+  width: 10px;
+  height: 95px;
+  margin-top: 26px;
+  margin-left: 5px;
+  margin-right: 5px;
+  flex: 1;
+}
 
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    
-    color: white;
-    
-    mix-blend-mode: normal;
-    opacity: 0.25;
+.section1 .blockchain {
+  height: 45px;
+
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: white;
+
+  mix-blend-mode: normal;
+  opacity: 0.25;
 }
 
 .section1 .reinventing {
-margin-left: 20px;
-font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 12px;
-letter-spacing: 1px;
-text-transform: uppercase;
+  margin-left: 20px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-color: #FFFFFF;
-display: inline-block;
+  color: #ffffff;
+  display: inline-block;
 }
 .section1 .opensource {
-    
-    height: 45px;
-    
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    
-    color: #FFFFFF;
-    
-    mix-blend-mode: normal;
-    opacity: 0.1;
+  height: 45px;
+
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.1;
 }
 
 .section1 .taxes {
-  
-    margin-left: 20px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 12px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    
-    color: #492FB4;
-    display: inline-block;
+  margin-left: 20px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 12px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #492fb4;
+  display: inline-block;
 }
 
 .section1 .society {
-   
-height: 45px;
-left: 200px;
-font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-letter-spacing: 1px;
-text-transform: uppercase;
+  height: 45px;
+  left: 200px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-color: #492FB4;
+  color: #492fb4;
 
-mix-blend-mode: normal;
-opacity: 0.25;
-
+  mix-blend-mode: normal;
+  opacity: 0.25;
 }
 
 .section1 .govt {
-    
-height: 45px;
+  height: 45px;
 
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-letter-spacing: 1px;
-text-transform: uppercase;
-
-color: #492FB4;
+  color: #492fb4;
 }
 .section1 .laws {
-    
-    height: 45px;
-    
-    
-    font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-letter-spacing: 1px;
-text-transform: uppercase;
+  height: 45px;
 
-color: #492FB4;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-mix-blend-mode: normal;
-opacity: 0.25;
-    }
-    
+  color: #492fb4;
+
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
 .section1 .court {
-    
-        height: 45px;
-        
-        
-        font-family: ABeeZee;
-        font-style: italic;
-        font-weight: normal;
-        line-height: normal;
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        
-        color: #492FB4;
-        
-        mix-blend-mode: normal;
-        opacity: 0.25;
-        }
+  height: 45px;
 
-.section1 .logo1{
-    width: 20px;
-    height: 20px;
-    background: purple;
-    margin-left: 2px;
-    margin-top: 10px;
-    display: inline-block;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 24px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #492fb4;
+
+  mix-blend-mode: normal;
+  opacity: 0.25;
+}
+
+.section1 .logo1 {
+  width: 20px;
+  height: 20px;
+  background: purple;
+  margin-left: 2px;
+  margin-top: 10px;
+  display: inline-block;
 }
 .section1 .content {
-    margin-left: 15px;
-    margin-bottom: 10px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 45px;
-    letter-spacing: 2px;
-    color:white;
-    display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 10px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 45px;
+  letter-spacing: 2px;
+  color: white;
+  display: inline-block;
 }
 
-
-
-.section2{
-    width: 100%;
-    height: 2048px;
-    background: #04030F;
-    overflow: hidden;
+.section2 {
+  width: 100%;
+  height: 2048px;
+  background: #04030f;
+  overflow: hidden;
 }
 
-.section2 .button-group{
-    width: 84px;
-    height: 12px;
-    margin-top: 48px;
+.section2 .button-group {
+  width: 84px;
+  height: 12px;
+  margin-top: 48px;
 }
 
-.section2 .button-group button{
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
+.section2 .button-group button {
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
 }
 
-.section2 .button-group button:nth-child(2){
-    margin-left: 12px;
-    margin-right: 12px;
-    opacity: 0.5;
+.section2 .button-group button:nth-child(2) {
+  margin-left: 12px;
+  margin-right: 12px;
+  opacity: 0.5;
 }
 
-.section2 .button-group button:nth-child(3){
-    opacity: 0.5;
+.section2 .button-group button:nth-child(3) {
+  opacity: 0.5;
 }
 
-.section2 .section2-button-group{
-    margin-left: 205px;
+.section2 .section2-button-group {
+  margin-left: 205px;
 }
 
-.section2 .wrapper{
-    width: 100%;
-    height: 1728px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
+.section2 .wrapper {
+  width: 100%;
+  height: 1728px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
-.section2 .wrapper .part1{
-    flex: 1;
-    width: 1041px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.section2 .wrapper .part1 {
+  flex: 1;
+  width: 1041px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.section2 .wrapper .part1 .container-left{
-    flex: 0.42;
+.section2 .wrapper .part1 .container-left {
+  flex: 0.42;
 }
 
-.section2 .wrapper .part1 .container-left .header{
-    background: #43E97B;
-    width: 366px;
-    height: 202px;
+.section2 .wrapper .part1 .container-left .header {
+  background: #43e97b;
+  width: 366px;
+  height: 202px;
 }
 
-.section2 .wrapper .part1 .container-left .menu{
-    width: 338px;
-    height: 168px;
-    background: #fff;
-    position: relative;
-    top: -28px;
-    left: 153px;
+.section2 .wrapper .part1 .container-left .menu {
+  width: 338px;
+  height: 168px;
+  background: #fff;
+  position: relative;
+  top: -28px;
+  left: 153px;
 }
 
-.section2 .wrapper .part1 .container-left .my-balance{
-    background-image: url("/img/Background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    width: 338px;
-    height: 131px;
-    position: relative;
-    top: -58px;
-    left: 36px;
+.section2 .wrapper .part1 .container-left .my-balance {
+  background-image: url("/img/Background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 338px;
+  height: 131px;
+  position: relative;
+  top: -58px;
+  left: 36px;
 }
-.section2 .wrapper .part1 .container-right{
-    flex: 0.58;
-}
-
-.section2 .wrapper .part1 .container-right .info{
-    width: 470px;
-    height: 184px;
-    margin-left: 205px;
+.section2 .wrapper .part1 .container-right {
+  flex: 0.58;
 }
 
-.section2 .wrapper .part1 .container-right .info-title{
-    margin-top: 60px;
-    width: 396px;
-    height: 29px;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+.section2 .wrapper .part1 .container-right .info {
+  width: 470px;
+  height: 184px;
+  margin-left: 205px;
 }
 
-.section2 .wrapper .part1 .container-right .info-content{
-    margin-top: 19px;
-    width: 407px;
-    height: 102px;
-    font-size: 16px;
-    line-height: 43px;
+.section2 .wrapper .part1 .container-right .info-title {
+  margin-top: 60px;
+  width: 396px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
-.section2 .wrapper .part1 .container-right .button-utopia-business-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    margin-left: 205px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
+.section2 .wrapper .part1 .container-right .info-content {
+  margin-top: 19px;
+  width: 407px;
+  height: 102px;
+  font-size: 16px;
+  line-height: 43px;
 }
 
-.section2 .wrapper .part2{
-    flex: 1;
-    margin-top: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1041px;
+.section2 .wrapper .part1 .container-right .button-utopia-business-app {
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  margin-left: 205px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
 
-.section2 .wrapper .part2 .container-left{
-    flex: 0.58;
+.section2 .wrapper .part2 {
+  flex: 1;
+  margin-top: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1041px;
 }
 
-.section2 .wrapper .part2 .container-left .info{
-    width: 470px;
-    height: 184px;
-    margin-top: 69px;
+.section2 .wrapper .part2 .container-left {
+  flex: 0.58;
 }
 
-.section2 .wrapper .part2 .container-left .info-title{
-    margin-top: 60px;
-    width: 396px;
-    height: 29px;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+.section2 .wrapper .part2 .container-left .info {
+  width: 470px;
+  height: 184px;
+  margin-top: 69px;
 }
 
-.section2 .wrapper .part2 .container-left .info-content{
-    margin-top: 19px;
-    width: 407px;
-    height: 102px;
-    font-size: 16px;
-    line-height: 43px;
+.section2 .wrapper .part2 .container-left .info-title {
+  margin-top: 60px;
+  width: 396px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
-.section2 .wrapper .part2 .container-left .button-utopia-gold-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
+.section2 .wrapper .part2 .container-left .info-content {
+  margin-top: 19px;
+  width: 407px;
+  height: 102px;
+  font-size: 16px;
+  line-height: 43px;
 }
 
-.section2 .wrapper .part2 .container-right{
-    flex: 0.42;
+.section2 .wrapper .part2 .container-left .button-utopia-gold-app {
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
 
-.section2 .wrapper .part2 .container-right .send-money{
-    width: 338px;
-    height: 151px;
-    background: white;
-    margin-left: 168px
+.section2 .wrapper .part2 .container-right {
+  flex: 0.42;
 }
 
-.section2 .wrapper .part2 .container-right .expenses{
-    margin-top: 30px;
-    margin-left: 105px;
-    width: 338px;
-    height: 262px;
-    background: white;
+.section2 .wrapper .part2 .container-right .send-money {
+  width: 338px;
+  height: 151px;
+  background: white;
+  margin-left: 168px;
 }
 
-.section2 .wrapper .part2 .container-right .my-balance{
-    width: 338px;
-    height: 131px;
-    background-image: url("img/Background3.png");
-    background-size: cover;
-    position: relative;
-    top: -360px;
+.section2 .wrapper .part2 .container-right .expenses {
+  margin-top: 30px;
+  margin-left: 105px;
+  width: 338px;
+  height: 262px;
+  background: white;
 }
 
-.section2 .wrapper .part3{
-    flex: 1;
-    width: 1041px;
-    margin-top: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+.section2 .wrapper .part2 .container-right .my-balance {
+  width: 338px;
+  height: 131px;
+  background-image: url("img/Background3.png");
+  background-size: cover;
+  position: relative;
+  top: -360px;
 }
 
-.section2 .wrapper .part3 .container-left{
-    flex: 0.42;
+.section2 .wrapper .part3 {
+  flex: 1;
+  width: 1041px;
+  margin-top: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.section2 .wrapper .part3 .container-left .header{
-    width: 366px;
-    height: 202px;
-    background: #43E97B;
+.section2 .wrapper .part3 .container-left {
+  flex: 0.42;
 }
 
-.section2 .wrapper .part3 .container-left .menu{
-    width: 338px;
-    height: 168px;
-    margin-left: 110px;
-    background: white;
-    position: relative;
-    top: -36px;
+.section2 .wrapper .part3 .container-left .header {
+  width: 366px;
+  height: 202px;
+  background: #43e97b;
 }
 
-.section2 .wrapper .part3 .container-left .my-balance{
-    width: 338px;
-    height: 137px;
-    margin-left: 36px;
-    background-image: url("/img/Background4.png");
-    position: relative;
-    top: -64px;
+.section2 .wrapper .part3 .container-left .menu {
+  width: 338px;
+  height: 168px;
+  margin-left: 110px;
+  background: white;
+  position: relative;
+  top: -36px;
 }
 
-.section2 .wrapper .part3 .container-right{
-    flex: 0.58;
+.section2 .wrapper .part3 .container-left .my-balance {
+  width: 338px;
+  height: 137px;
+  margin-left: 36px;
+  background-image: url("/img/Background4.png");
+  position: relative;
+  top: -64px;
 }
 
-.section2 .wrapper .part3 .container-right .info{
-    width: 470px;
-    height: 184px;
-    margin-top: 86px;
-    margin-left: 205px;
+.section2 .wrapper .part3 .container-right {
+  flex: 0.58;
 }
 
-.section2 .wrapper .part3 .container-right .info-title{
-    width: 380px;
-    height: 29px;
-    color: white;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+.section2 .wrapper .part3 .container-right .info {
+  width: 470px;
+  height: 184px;
+  margin-top: 86px;
+  margin-left: 205px;
 }
 
-.section2 .wrapper .part3 .container-right .info-content{
-    color: white;
-    margin-top: 19px;
-    font-size: 16px;
-    line-height: 34px;
+.section2 .wrapper .part3 .container-right .info-title {
+  width: 380px;
+  height: 29px;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
-.section2 .wrapper .part3 .container-right .button-government-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    margin-left: 205px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
-}
-.section3{
-    width: 100%;
-    height: 1268px;
+.section2 .wrapper .part3 .container-right .info-content {
+  color: white;
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 34px;
 }
 
-.section4{
-    width: 100%;
-    height: 1983px;
-}
-.section4 .account-section{
-      height:590px;
-      width: 100%;
-      background: linear-gradient(157.52deg, #3023AE 0%, #C86DD7 101.5%);
-      overflow: hidden;
-}
-
-.section4 .account-button-text{   
-    margin-left: 849px; 
-    margin-top: 100px;
-    height:98px;
-    width: 398px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 34px;
-    letter-spacing: 1px;
-    background: #D8D8D8;
-    border: 1px solid #979797;
-    box-sizing: border-box;
-}
-.section4 .lower-section{
-    width: 100%;
-    height:1393px;
-}
-.section4 .account-section-header{
-       margin-left: 160px;
-       margin-top:61px;
-       font-family: ABeeZee;
-       font-style: italic;
-       font-weight: normal;
-       line-height: normal;
-       font-size: 34px;
-       letter-spacing: 1px;
-       text-transform: uppercase;
-       color: #FFFFFF;
-}
-.section4 .account-section-subhead{
-    margin-left: 184px;
-    margin-top: 32px;     
+.section2 .wrapper .part3 .container-right .button-government-app {
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  margin-left: 205px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
 
-.section4 .lower-section-header{
-    margin-left: 202px;
-    margin-top: 104px; 
+.section4 {
+  width: 100%;
+  height: 1983px;
 }
-.section4 .lower-section-subhead{
-   width: 637px;
-   height: 282px;
-   margin-left: 261px;
-   margin-top: 63px;   
+.section4 .account-section {
+  height: 590px;
+  width: 100%;
+  background: linear-gradient(157.52deg, #3023ae 0%, #c86dd7 101.5%);
+  overflow: hidden;
 }
-.section4 .account-sec-text{
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    letter-spacing: 1px;
-    color: #FFFFFF;
+
+.section4 .account-button-text {
+  margin-left: 849px;
+  margin-top: 100px;
+  height: 98px;
+  width: 398px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 34px;
+  letter-spacing: 1px;
+  background: #d8d8d8;
+  border: 1px solid #979797;
+  box-sizing: border-box;
 }
-.section4 .lower-sec-text{
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    letter-spacing: 1px;
- 
-    color: #1D1E1F;
+.section4 .lower-section {
+  width: 100%;
+  height: 1393px;
 }
-.section4 .lower-section-insidesubhead1{
-    margin-left: 220px;
-    margin-top: 357px;  
- }
- .section4 .lower-section-insidesubhead2{
-    margin-left: 209px;
-    margin-top: 27px; 
- }
- .section4 .lower-section-insidesubhead3{
-    margin-left: 208px;
-    margin-top: 39px;  
- }
- .section3 .row1 {
-    position: absolute;
-    left: 9.24%;
-    margin-top: 230px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 34px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  
-    color: #04030f;
-  }
-  .section3 .row2 {
-    position: absolute;
-    height: 68px;
-    right: 44.1%;
-    left: 9.24%;
-    margin-top: 280px;
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 34px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #100f1a;
-  }
-  .section3 .spending-block {
-    background-color: #d8d8d8;
-    flex: 1;
-    border: 1px solid #979797;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 10px;
-    height: 450px;
-   }
-   .section3 .text {
-    position: relative;
-    height: 14px;
-    margin-top:480px;
-    text-align: center;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 11.2px;
-    letter-spacing: 0.84px;
-    color: #09203f;
-  }
-  .section3 .flex-container {
-    display: flex;
-    justify-content: left;
-  }
-  
-  .section3 .spending-class{
-      margin-left: 60px;
-      margin-right: 20px;
-      margin-top: 450px;
-      height: 668px;
-      width: 1171px;
-  }
-  .section .utopia-location {
-      height : 12px;
-      width : 14px;
-      background-color: #04030F;
-  }
+.section4 .account-section-header {
+  margin-left: 160px;
+  margin-top: 61px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 34px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.section4 .account-section-subhead {
+  margin-left: 184px;
+  margin-top: 32px;
+}
+
+.section4 .lower-section-header {
+  margin-left: 202px;
+  margin-top: 104px;
+}
+.section4 .lower-section-subhead {
+  width: 637px;
+  height: 282px;
+  margin-left: 261px;
+  margin-top: 63px;
+}
+.section4 .account-sec-text {
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.section4 .lower-sec-text {
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 20px;
+  letter-spacing: 1px;
+
+  color: #1d1e1f;
+}
+.section4 .lower-section-insidesubhead1 {
+  margin-left: 220px;
+  margin-top: 357px;
+}
+.section4 .lower-section-insidesubhead2 {
+  margin-left: 209px;
+  margin-top: 27px;
+}
+.section4 .lower-section-insidesubhead3 {
+  margin-left: 208px;
+  margin-top: 39px;
+}
+/*------------------------------------------------------------------------------------- */
+
+.section3 {
+  width: 100%;
+}
+.section3 .source-head {
+  margin-top: 230px;
+  font-family: ABeeZee;
+  margin-left:135px; 
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 34px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #04030f;
+}
+.section3 .source-subhead {
+  margin-top: 10px;
+  margin-left:135px; 
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #100f1a;
+}
+.section3 .spending-block {
+  background-color: #d8d8d8;
+  flex: 1;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  height: 450px;
+}
+.section3 .text {
+  margin-top: 480px;
+  text-align: center;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 11.2px;
+  letter-spacing: 0.84px;
+  color: #09203f;
+}
+.section3 .flex-container {
+  display: flex;
+  justify-content: left;
+}
+
+.section3 .spending-class {
+  margin-left: 60px;
+  margin-right: 20px;
+  margin-top: 50px;
+  height: 668px;
+  width: 1171px;
+}
+.section3 .utopia-location-text {
+  height: 1212px;
+  width: 100%;
+  background-color:#04030f;
+}
+
+.section3 .loaction-head {
+  height: 38px;
+  margin-left: 115px;
+  margin-top: 96px;
+
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.section3 .location-subhead {
+  height: 108px;
+  width: 670px;
+  margin-left: 115px;
+  margin-top: 10px;
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+.section3 .world-map {
+  width: 100%;
+  height: 808px;
+  background-image: url("/img/map1.png");
+  background-repeat:no-repeat; 
+  background-size: 100% 100%;
+  background-color: #04030f;
+  overflow: hidden;
+}
+.section3 .world-map-header{
+  width: 100%;
+  height: 390px;
+  padding: 1% 0 3% 0;
+  background-color:#04030f;
+}
+.world-map-header h1{
+  margin-top:96px;
+  margin-left: 135px;
+  text-transform: uppercase;
+}
+.section3 .world-map-header p{
+  margin-top:18px;
+  margin-left:135px;
+}
