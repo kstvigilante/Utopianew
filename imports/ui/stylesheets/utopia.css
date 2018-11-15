@@ -4,7 +4,7 @@ body{
 }
 
 .section1{
-    width: 1440px;
+    width: 100%;
     height: 1320px;
     background: green;
 }
@@ -36,16 +36,63 @@ body{
         padding: 0.1px;
 }
 
+.section1 .top-section2{
+    flex:2;
+    background-image: url('/img/home-main.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+   height: 660px;
+   width: 2440px; 
+    
+}
+
 .section1 .bottom-section{
     flex:1;
     background: white;
 }
 
+.section1 .opensource-country{
+    width: 500px;
+    height: 200px;
+    margin-top: 100px;
+    margin-left: 360px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+   
+    align-self: center;
+}
+
+.section1 .heading-bottom{
+margin-left: 5px;
+font-family: ABeeZee;
+font-style: italic;
+font-weight: normal;
+line-height: normal;
+font-size: 20px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #100F1A;
+}
+.section1 .content-bottom{
+    margin-top: 18px;
+    margin-left: 5px;
+    font-family: ABeeZee;
+font-style: normal;
+font-weight: normal;
+line-height: 34px;
+font-size: 14px;
+letter-spacing: 1px;
+
+color: #100F1A;
+    }
+    
+
 .section1 .header{
     width: 563px;
     height: 295px;
-    margin-top: 26px;
-    margin-left: 48px;
+    margin-top: 50px;
+    margin-left: 60px;
     
     /* flex: 1; */
     
@@ -60,41 +107,44 @@ body{
   /* background-color:black; */
   margin-left: 200px; 
   margin-bottom: 200px;
-  height:598px;
-  width: 350px;
+  height:698px;
+  width: 450px;
   
   box-sizing: border-box;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  
 }
 
-     .info-container-r {
-        width: 10px;
-        height: 95px;
+.section1 .info-container-l {
+        width: 100px;
+        height: 210px;
         margin-top: 26px;
         margin-left: 5px;
         margin-right: 5px;
         /* background-color:blue; */
         flex: 1;
     } 
-   /* .info-container-l {
-        width: 63px;
-        height: 95px;
-        margin-top: 26px;
-        margin-left: 48px;
-        background-color:blue;
+    .section1 .info-container-r {
+        width: 100px;
+        height: 210px;
+        margin-top: 15px;
+        margin-left: 5px;
+        margin-right: 5px;
+        /* background-color:blue; */
         flex: 1;
-    }  */
+    } 
 .section1 .blockchain {
     
-    height: 45px;
-
+    
+    margin-left: 20px;
+    margin-top: 15px;
     font-family: ABeeZee;
     font-style: italic;
     font-weight: normal;
     line-height: normal;
-    font-size: 12px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     
@@ -102,6 +152,8 @@ body{
     
     mix-blend-mode: normal;
     opacity: 0.25;
+    
+    
 }
 
 .section1 .reinventing {
@@ -109,11 +161,12 @@ body{
 
 
 margin-left: 20px;
+margin-top: 10px;
 font-family: ABeeZee;
 font-style: italic;
 font-weight: normal;
 line-height: normal;
-font-size: 12px;
+font-size: 20px;
 letter-spacing: 1px;
 text-transform: uppercase;
 
@@ -122,13 +175,14 @@ display: inline-block;
 }
 .section1 .opensource {
     
-    height: 45px;
     
+    margin-left: 20px;
+    margin-top: 10px;
     font-family: ABeeZee;
     font-style: italic;
     font-weight: normal;
     line-height: normal;
-    font-size: 12px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     
@@ -145,23 +199,25 @@ display: inline-block;
     font-style: italic;
     font-weight: normal;
     line-height: normal;
-    font-size: 12px;
+    font-size: 20px;
     letter-spacing: 1px;
     text-transform: uppercase;
     
     color: #492FB4;
-    display: inline-block;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
 }
 
 .section1 .society {
    
-height: 45px;
-left: 200px;
-font-family: ABeeZee;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: ABeeZee;
 font-style: italic;
 font-weight: normal;
 line-height: normal;
-font-size: 24px;
+font-size: 20px;
 letter-spacing: 1px;
 text-transform: uppercase;
 
@@ -174,55 +230,52 @@ opacity: 0.25;
 
 .section1 .govt {
     
-height: 45px;
-
-
-font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-letter-spacing: 1px;
-text-transform: uppercase;
-
-color: #492FB4;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: ABeeZee;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #492FB4;
 }
 .section1 .laws {
     
-    height: 45px;
-    
-    
+    margin-left: 20px;
+    margin-top: 10px;
     font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
-line-height: normal;
-font-size: 24px;
-letter-spacing: 1px;
-text-transform: uppercase;
-
-color: #492FB4;
-
-mix-blend-mode: normal;
-opacity: 0.25;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #492FB4;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
     }
     
 .section1 .court {
     
-        height: 45px;
-        
-        
-        font-family: ABeeZee;
-        font-style: italic;
-        font-weight: normal;
-        line-height: normal;
-        font-size: 24px;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        
-        color: #492FB4;
-        
-        mix-blend-mode: normal;
-        opacity: 0.25;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-family: ABeeZee;
+    font-style: italic;
+    font-weight: normal;
+    line-height: normal;
+    font-size: 20px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    
+    color: #492FB4;
+    
+    mix-blend-mode: normal;
+    opacity: 0.25;
         }
 
 .section1 .logo1{
@@ -240,7 +293,7 @@ opacity: 0.25;
 font-style: italic;
 font-weight: normal;
 line-height: normal;
-font-size: 45px;
+font-size: 50px;
 letter-spacing: 2px;
 color:white;
 display: inline-block;
@@ -249,18 +302,18 @@ display: inline-block;
 
 
 .section2{
-    width: 1440px;
+    width: 100%;
     height: 2048px;
     background: red;
 }
 
 .section3{
-    width: 1440px;
+    width: 100%;
     height: 1268px;
 }
 
 .section4{
-    width: 1440px;
+    width: 100%;
     height: 1983px;
 }
 .section4 .account-section{
