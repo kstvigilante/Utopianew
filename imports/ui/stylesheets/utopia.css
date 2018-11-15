@@ -427,10 +427,12 @@ body{
       height:590px;
       width: 100%;
       background: linear-gradient(157.52deg, #3023AE 0%, #C86DD7 101.5%);
+      overflow: hidden;
 }
+
 .section4 .account-button-text{   
     margin-left: 849px; 
-    margin-top: 160px;
+    margin-top: 100px;
     height:98px;
     width: 398px;
     font-family: ABeeZee;
@@ -449,6 +451,7 @@ body{
 }
 .section4 .account-section-header{
        margin-left: 160px;
+       margin-top:61px;
        font-family: ABeeZee;
        font-style: italic;
        font-weight: normal;
@@ -460,7 +463,20 @@ body{
 }
 .section4 .account-section-subhead{
     margin-left: 184px;
-    margin-top: 32px; 
+    margin-top: 32px;     
+}
+
+.section4 .lower-section-header{
+    margin-left: 202px;
+    margin-top: 104px; 
+}
+.section4 .lower-section-subhead{
+   width: 637px;
+   height: 282px;
+   margin-left: 261px;
+   margin-top: 63px;   
+}
+.section4 .account-sec-text{
     font-family: ABeeZee;
     font-style: italic;
     font-weight: normal;
@@ -469,72 +485,27 @@ body{
     letter-spacing: 1px;
     color: #FFFFFF;
 }
-
-
-.section4 .lower-section-header{
-    margin-left: 202px;
-    margin-top: 104px;
+.section4 .lower-sec-text{
     font-family: ABeeZee;
     font-style: italic;
     font-weight: normal;
     line-height: normal;
     font-size: 20px;
     letter-spacing: 1px;
-
+ 
     color: #1D1E1F;
-
 }
-.section4 .lower-section-subhead{
-   width: 637px;
-   height: 282px;
-   margin-left: 261px;
-   margin-top: 63px; 
-   font-family: ABeeZee;
-   font-style: italic;
-   font-weight: normal;
-   line-height: normal;
-   font-size: 20px;
-   letter-spacing: 1px;
-
-   color: #1D1E1F;
-
-}
-
 .section4 .lower-section-insidesubhead1{
     margin-left: 220px;
-    margin-top: 357px; 
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    letter-spacing: 1px; 
-    color: #1D1E1F;
- 
+    margin-top: 357px;  
  }
  .section4 .lower-section-insidesubhead2{
     margin-left: 209px;
     margin-top: 27px; 
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    letter-spacing: 1px; 
-    color: #1D1E1F;
- 
  }
  .section4 .lower-section-insidesubhead3{
     margin-left: 208px;
-    margin-top: 39px; 
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 20px;
-    letter-spacing: 1px; 
-    color: #1D1E1F;
- 
+    margin-top: 39px;  
  }
  .section3 .row1 {
     position: absolute;
