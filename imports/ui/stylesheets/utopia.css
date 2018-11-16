@@ -737,11 +737,12 @@ background: #04030F
   background-repeat:no-repeat; 
   background-size: 100% 100%;
   background-color: #04030f;
+  background-position: top;
   overflow: hidden;
 }
 .section3 .world-map-header{
   width: 100%;
-  height: 390px;
+  height: 335px;
   padding: 1% 0 3% 0;
   background-color:#04030f;
 }
