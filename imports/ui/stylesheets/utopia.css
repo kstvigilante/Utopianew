@@ -1,517 +1,512 @@
 body{
-    padding: 0.1px;
-    margin: 0px;
-    color: white;
+  padding: 0.1px;
+  margin: 0px;
+  color: white;
 }
 
 .section1{
-    width: 100%;
-    height: 660px;
+  width: 100%;
+  height: 660px;
 }
 
 .section1 .wrapper{
-    height: 100%;
-    width: 100%;
-    background-image: url("/img/Background5.png");
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    overflow: hidden;
+  height: 100%;
+  width: 100%;
+  background-image: url("/img/Background5.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  overflow: hidden;
 }
 .section1 .logo{
-    width: 140px;
-    height: 50px;
-    background-image: url("/img/section1logo.png");
-    background-size: 100% 100%;
-    margin-top: 100px;
-    margin-left: 68px;
-    display: inline-block;
+  width: 140px;
+  height: 50px;
+  background-image: url("/img/section1logo.png");
+  background-size: 100% 100%;
+  margin-top: 100px;
+  margin-left: 68px;
+  display: inline-block;
 }
 .section1 .navigation{
-    width: 580px;
-    height: 17px;
-    display: inline-block;
-    margin-top: 122px;
-    margin-left: 144px;
-    font-style: italic;
-    vertical-align: top;
+  width: 580px;
+  height: 17px;
+  display: inline-block;
+  margin-top: 122px;
+  margin-left: 144px;
+  font-style: italic;
+  vertical-align: top;
 }
 
 .section1 .navigation a{
-    text-decoration: none;
-    color: white;
-    font-size: 14px;
-    margin-right: 37px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  margin-right: 37px;
 }
 
 .section1 .signin{
-    width: 154px;
-    height: 17px;
-    display: inline-block;
-    margin-top: 122px;
-    margin-left: 100px;
-    vertical-align: top;
+  width: 154px;
+  height: 17px;
+  display: inline-block;
+  margin-top: 122px;
+  margin-left: 100px;
+  vertical-align: top;
 }
 
 .section1 .signin a{
-    font-size: 14px;
-    text-decoration: none;
-    color: white;
-    font-style: italic;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  font-style: italic;
 }
 
 .section1 .signup{
-    display: inline-block;
+  display: inline-block;
 }
 
 .section1 .signup a{
-    color: #492FB4;
+  color: #492FB4;
 }
 
 .section1 .login{
-    display: inline-block;
-    margin-left: 44px;
+  display: inline-block;
+  margin-left: 44px;
 }
 
 .section1 .content{
-    width: 650px;
-    height: 265px;
-    margin-top: 102px;
-    margin-left: auto;
-    margin-right: auto;
+  width: 650px;
+  height: 265px;
+  margin-top: 102px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section1 .content .left-list{
-    width: 50%;
-    height: 100%;
-    float: left;
-    text-align: right;
+  width: 50%;
+  height: 100%;
+  float: left;
+  text-align: right;
 }
 
 .section1 .content .right-list{
-    width: 50%;
-    height: 100%;
-    float: right;
+  width: 50%;
+  height: 100%;
+  float: right;
 }
 
 .section1 .content .left-list ul{
-    color: white;
-    list-style: none;
-    font-size: 38px;
-    margin-top: 92px;
-    font-style: italic;
+  color: white;
+  list-style: none;
+  font-size: 38px;
+  margin-top: 92px;
+  font-style: italic;
 }
 
 .section1 .content .right-list ul{
-    color: #492FB4;
-    list-style: none;
-    font-size: 38px;
-    font-style: italic;
+  color: #492FB4;
+  list-style: none;
+  font-size: 38px;
+  font-style: italic;
 }
 
 .section1 .content .right-list ul li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .section1 .content .left-list ul li {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 .video-section{
-    width: 100%;
-    height: 1156px;
+  width: 100%;
+  height: 1156px;
 }
 
 .video-section .wrapper{
-    width: 81%;
-    height: 1156px;
-    margin: 196px auto;
+  width: 81%;
+  height: 1156px;
+  margin: 196px auto;
 }
 
 .opq{
-    opacity: 0.25;
+  opacity: 0.25;
 }
 
 .video-section .header{
-    margin: 0 auto;
-    width: 520px;
-    height: 96px;
-    font-size: 32px;
-    line-height: 48px;
-    text-align: center;
-    font-style: italic;
-    color: black;
+  margin: 0 auto;
+  width: 520px;
+  height: 96px;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  font-style: italic;
+  color: black;
 }
 
 .video-section .content{
-    width: 970px;
-    height: 108px;
-    margin-top: 36px;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 16px;
-    line-height: 36px;
-    text-align: center;
-    color: black;
+  width: 970px;
+  height: 108px;
+  margin-top: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 16px;
+  line-height: 36px;
+  text-align: center;
+  color: black;
 }
 
 .video-section .video{
-    width: 100%;
-    height: 600px;
-    background: grey;
-    margin-top: 120px;
+  width: 100%;
+  height: 600px;
+  background: grey;
+  margin-top: 120px;
 }
 
 .video-section .video iframe{
-    height: 100%;
-    width: 100%;
+  height: 100%;
+  width: 100%;
 }
 
 .section2{
-    width: 100%;
-    height: 2048px;
-    background: #04030F;
-    overflow: hidden;
+  width: 100%;
+  height: 2048px;
+  background: #04030F;
+  overflow: hidden;
 }
 
 .section2 .button-group{
-    width: 84px;
-    height: 12px;
-    margin-top: 48px;
+  width: 84px;
+  height: 12px;
+  margin-top: 48px;
 }
 
 .section2 .button-group button{
-    width: 12px;
-    height: 12px;
-    background: white;
-    border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  background: white;
+  border-radius: 50%;
 }
 
 .section2 .button-group button:nth-child(2){
-    margin-left: 12px;
-    margin-right: 12px;
-    opacity: 0.5;
+  margin-left: 12px;
+  margin-right: 12px;
+  opacity: 0.5;
 }
 
 .section2 .button-group button:nth-child(3){
-    opacity: 0.5;
+  opacity: 0.5;
 }
 
 .section2 .section2-button-group{
-    margin-left: 205px;
+  margin-left: 205px;
 }
 
 .section2 .wrapper{
-    width: 100%;
-    height: 1728px;
-    margin-top: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 1728px;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .section2 .wrapper .part1{
-    flex: 1;
-    width: 1041px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+  flex: 1;
+  width: 1041px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section2 .wrapper .part1 .container-left{
-    flex: 0.42;
-    background-image: url("/img/ui-1.png");
-    background-size: 100% 100%;
+  flex: 0.42;
+  background-image: url("/img/ui-1.png");
+  background-size: 100% 100%;
 }
 
 .section2 .wrapper .part1 .container-left .header{
-    background: #43E97B;
-    width: 366px;
-    height: 202px;
+  background: #43E97B;
+  width: 366px;
+  height: 202px;
 }
 
 .section2 .wrapper .part1 .container-left .menu{
-    width: 338px;
-    height: 168px;
-    background: #fff;
-    position: relative;
-    top: -28px;
-    left: 153px;
+  width: 338px;
+  height: 168px;
+  background: #fff;
+  position: relative;
+  top: -28px;
+  left: 153px;
 }
 
 .section2 .wrapper .part1 .container-left .my-balance{
-    background-image: url("/img/Background1.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: top;
-    width: 338px;
-    height: 131px;
-    position: relative;
-    top: -58px;
-    left: 36px;
+  background-image: url("/img/Background1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+  width: 338px;
+  height: 131px;
+  position: relative;
+  top: -58px;
+  left: 36px;
 }
 .section2 .wrapper .part1 .container-right{
-    flex: 0.58;
+  flex: 0.58;
 }
 
 .section2 .wrapper .part1 .container-right .info{
-    width: 470px;
-    height: 184px;
-    margin-left: 205px;
+  width: 470px;
+  height: 184px;
+  margin-left: 205px;
 }
 
 .section2 .wrapper .part1 .container-right .info-title{
-    margin-top: 60px;
-    width: 396px;
-    height: 29px;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+  margin-top: 60px;
+  width: 396px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
 .section2 .wrapper .part1 .container-right .info-content{
-    margin-top: 19px;
-    width: 407px;
-    height: 102px;
-    font-size: 16px;
-    line-height: 43px;
+  margin-top: 19px;
+  width: 407px;
+  height: 102px;
+  font-size: 16px;
+  line-height: 43px;
 }
 
 .section2 .wrapper .part1 .container-right .button-utopia-business-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    margin-left: 205px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  margin-left: 205px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
 
 .section2 .wrapper .part2{
-    flex: 1;
-    margin-top: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 1041px;
+  flex: 1;
+  margin-top: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1041px;
 }
 
 .section2 .wrapper .part2 .container-left{
-    flex: 0.58;
+  flex: 0.58;
 }
 
 .section2 .wrapper .part2 .container-left .info{
-    width: 470px;
-    height: 184px;
-    margin-top: 69px;
+  width: 470px;
+  height: 184px;
+  margin-top: 69px;
 }
 
 .section2 .wrapper .part2 .container-left .info-title{
-    margin-top: 60px;
-    width: 396px;
-    height: 29px;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+  margin-top: 60px;
+  width: 396px;
+  height: 29px;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
 .section2 .wrapper .part2 .container-left .info-content{
-    margin-top: 19px;
-    width: 407px;
-    height: 102px;
-    font-size: 16px;
-    line-height: 43px;
+  margin-top: 19px;
+  width: 407px;
+  height: 102px;
+  font-size: 16px;
+  line-height: 43px;
 }
 
 .section2 .wrapper .part2 .container-left .button-utopia-gold-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
 
 .section2 .wrapper .part2 .container-right{
-    flex: 0.42;
-    background-image: url("/img/ui-3.png");
-    background-size: 100% 100%;
+  flex: 0.42;
+  background-image: url("/img/ui-3.png");
+  background-size: 100% 100%;
 }
 
 .section2 .wrapper .part2 .container-right .send-money{
-    width: 338px;
-    height: 151px;
-    background: white;
-    margin-left: 168px
+  width: 338px;
+  height: 151px;
+  background: white;
+  margin-left: 168px
 }
 
 .section2 .wrapper .part2 .container-right .expenses{
-    margin-top: 30px;
-    margin-left: 105px;
-    width: 338px;
-    height: 262px;
-    background: white;
+  margin-top: 30px;
+  margin-left: 105px;
+  width: 338px;
+  height: 262px;
+  background: white;
 }
 
 .section2 .wrapper .part2 .container-right .my-balance{
-    width: 338px;
-    height: 131px;
-    background-image: url("img/Background3.png");
-    background-size: cover;
-    position: relative;
-    top: -360px;
+  width: 338px;
+  height: 131px;
+  background-image: url("img/Background3.png");
+  background-size: cover;
+  position: relative;
+  top: -360px;
 }
 
 .section2 .wrapper .part3{
-    flex: 1;
-    width: 1041px;
-    margin-top: 200px;
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
+  flex: 1;
+  width: 1041px;
+  margin-top: 200px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section2 .wrapper .part3 .container-left{
-    flex: 0.42;     
-    background-image: url("/img/ui-2.png");
-    background-size: 100% 100%;
+  flex: 0.42;     
+  background-image: url("/img/ui-2.png");
+  background-size: 100% 100%;
 }
 
 .section2 .wrapper .part3 .container-left .header{
-    width: 366px;
-    height: 202px;
-    background: #43E97B;
+  width: 366px;
+  height: 202px;
+  background: #43E97B;
 }
 
 .section2 .wrapper .part3 .container-left .menu{
-    width: 338px;
-    height: 168px;
-    margin-left: 110px;
-    background: white;
-    position: relative;
-    top: -36px;
+  width: 338px;
+  height: 168px;
+  margin-left: 110px;
+  background: white;
+  position: relative;
+  top: -36px;
 }
 
 .section2 .wrapper .part3 .container-left .my-balance{
-    width: 338px;
-    height: 137px;
-    margin-left: 36px;
-    background-image: url("/img/Background4.png");
-    position: relative;
-    top: -64px;
+  width: 338px;
+  height: 137px;
+  margin-left: 36px;
+  background-image: url("/img/Background4.png");
+  position: relative;
+  top: -64px;
 }
 
 .section2 .wrapper .part3 .container-right{
-    flex: 0.58;
+  flex: 0.58;
 }
 
 .section2 .wrapper .part3 .container-right .info{
-    width: 470px;
-    height: 184px;
-    margin-top: 86px;
-    margin-left: 205px;
+  width: 470px;
+  height: 184px;
+  margin-top: 86px;
+  margin-left: 205px;
 }
 
 .section2 .wrapper .part3 .container-right .info-title{
-    width: 380px;
-    height: 29px;
-    color: white;
-    font-size: 24px;
-    line-height: 28px;
-    font-style: italic;
+  width: 380px;
+  height: 29px;
+  color: white;
+  font-size: 24px;
+  line-height: 28px;
+  font-style: italic;
 }
 
 .section2 .wrapper .part3 .container-right .info-content{
-    color: white;
-    margin-top: 19px;
-    font-size: 16px;
-    line-height: 34px;
+  color: white;
+  margin-top: 19px;
+  font-size: 16px;
+  line-height: 34px;
 }
 
 .section2 .wrapper .part3 .container-right .button-government-app{
-    width: 227px;
-    height: 59px;
-    margin-top: 14px;
-    margin-left: 205px;
-    border: 2px solid white;
-    border-radius: 4px;
-    font-size: 18px;
-    color: white;
-    text-align: center;
-    line-height: 60px;
-    font-style: italic;
+  width: 227px;
+  height: 59px;
+  margin-top: 14px;
+  margin-left: 205px;
+  border: 2px solid white;
+  border-radius: 4px;
+  font-size: 18px;
+  color: white;
+  text-align: center;
+  line-height: 60px;
+  font-style: italic;
 }
-.section3{
-    width: 100%;
-    height: 1268px;
-}
-
 .section4{
-      height:590px;
-      width: 100%;
-      background: linear-gradient(157.52deg, #3023AE 0%, #C86DD7 101.5%);
-      overflow: hidden;
+    height:590px;
+    width: 100%;
+    background: linear-gradient(157.52deg, #3023AE 0%, #C86DD7 101.5%);
+    overflow: hidden;
 }
 
 .section4 .account-button-text{   
-    margin-left: 135px; 
-    margin-top: 72px;
-    height:59px;
-    width: 256px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;    
-    color: #673EBD;
+  margin-left: 135px; 
+  margin-top: 72px;
+  height:59px;
+  width: 256px;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;    
+  color: #673EBD;
 }
 
 .section4 .account-section-header{
-       margin-left: 135px;
-       margin-top:90px;
-       font-family: ABeeZee;
-       font-style: italic;
-       font-weight: normal;
-       line-height: normal;
-       font-size: 32px;
-       letter-spacing: 1px;
-       text-transform: uppercase;
-       color: #FFFFFF;
+     margin-left: 135px;
+     margin-top:90px;
+     font-family: ABeeZee;
+     font-style: italic;
+     font-weight: normal;
+     line-height: normal;
+     font-size: 32px;
+     letter-spacing: 1px;
+     text-transform: uppercase;
+     color: #FFFFFF;
 
 }
 .section4 .account-sec-text{
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 28px;
-    font-size: 23px;
-    letter-spacing: 1px;    
-    color: #FFFFFF;
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 28px;
+  font-size: 23px;
+  letter-spacing: 1px;    
+  color: #FFFFFF;
 }
 .section4 .account-section-subhead{
-    margin-left: 135px;
-    margin-top: 32px;     
+  margin-left: 135px;
+  margin-top: 32px;     
 }
 .section4 .account-section-subhead1{
-    margin-left: 135px;
-    margin-top: 50px;     
+  margin-left: 135px;
+  margin-top: 50px;     
 }
 .section5{
-    width: 100%;
-    height:687px;
-    background: #04030F;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  height:687px;
+  background: #04030F;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .section5 .text{
@@ -526,61 +521,61 @@ color: #FFFFFF;
 
 }
 .section5 .subtext{
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 36px;
-    font-size: 16px;
-    letter-spacing: 1px;    
-    color: #FFFFFF;    
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  letter-spacing: 1px;    
+  color: #FFFFFF;    
 }
 .section5 .button-text{
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 18px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
 
 }
 .section5 .button{
-  margin-top: 10px;
-  height:59px;
-  width:204px;
-  border: 2px solid #FFFFFF;
-  box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 4px; 
-  background: #04030F
+margin-top: 10px;
+height:59px;
+width:204px;
+border: 2px solid #FFFFFF;
+box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+border-radius: 4px; 
+background: #04030F
 }
 .section5 .section-left{
-    height: 370px;
-    width: 439px;
-    margin-left: 235px;
-    margin-right: 115px;
-    flex: 1;
-   }
- .section5 .section-right{
-    margin-left: 115px;
-    margin-right: 235px;
-    height: 370px;
-    width: 439px;
-    flex: 1;
+  height: 370px;
+  width: 439px;
+  margin-left: 235px;
+  margin-right: 115px;
+  flex: 1;
  }
+.section5 .section-right{
+  margin-left: 115px;
+  margin-right: 235px;
+  height: 370px;
+  width: 439px;
+  flex: 1;
+}
 .section5 .left-img{
-    height: 200px;
-    width: 370px;
-    background-image: url('/img/law.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  height: 200px;
+  width: 370px;
+  background-image: url('/img/law.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .section5 .right-img{
-    height: 200px;
-    width: 370px;
-    background-image: url('/img/consti.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+  height: 200px;
+  width: 370px;
+  background-image: url('/img/consti.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
 .section6{
     width: 100%;
@@ -590,117 +585,172 @@ color: #FFFFFF;
     display: flex;
 }
 .section6 .section-left{
-     flex: 7;
-     display:flex;
-     align-items: center;
+   flex: 7;
+   display:flex;
+   align-items: center;
 }
 .copyright-text{
-    margin-left:135px;
+  margin-left:135px;
 }
 .section6 .section-right{
-    flex: 3;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  flex: 3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
- .section6 .fb{
-    height: 18px;
-    width: 18px;
-    background-image: url('/img/Facebook.png');
-    background-size: 100% 100%;
- }
- .section6 .git{
-    height: 18px;
-    width: 18px;
-    margin-left: 20px;
-    background-image: url('/img/Github.png');
-    background-size: 100% 100%;
- }
- .section6 .shape{
-    height: 18px;
-    width: 18px;
-    margin-left: 20px;
-    background-image: url('/img/Shape.png');
-    background-size: 100% 100%;
- }
- .section6 .slack{
-    height: 18px;
-    width: 18px;
-    margin-left: 20px;
-    background-image: url('/img/Slack.png');
-    background-size: 100% 100%;
- }
- .section6 .twit{
-    height: 18px;
-    width: 18px; 
-    margin-left: 20px;
-    background-image: url('/img/Twitter.png');
-    background-size: 100% 100%;
- }
- .section3 .row1 {
-    position: absolute;
-    left: 9.24%;
-    margin-top: 230px;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 34px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-  
-    color: #04030f;
-  }
-  .section3 .row2 {
-    position: absolute;
-    height: 68px;
-    right: 44.1%;
-    left: 9.24%;
-    margin-top: 280px;
-    font-family: ABeeZee;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 34px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    color: #100f1a;
-  }
-  .section3 .spending-block {
-    background-color: #d8d8d8;
-    flex: 1;
-    border: 1px solid #979797;
-    box-sizing: border-box;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
-    margin-left: 60px;
-    margin-right: 60px;
-    margin-top: 10px;
-    height: 450px;
-   }
-   .section3 .text {
-    position: relative;
-    height: 14px;
-    margin-top:480px;
-    text-align: center;
-    font-family: ABeeZee;
-    font-style: italic;
-    font-weight: normal;
-    line-height: normal;
-    font-size: 11.2px;
-    letter-spacing: 0.84px;
-    color: #09203f;
-  }
-  .section3 .flex-container {
-    display: flex;
-    justify-content: left;
-  }
-  .section3 .spending-class{
-      margin-left: 60px;
-      margin-right: 20px;
-      margin-top: 350px;
-      height: 668px;
-      width: 1171px;
-  }
-  /* 
-   */
+.section6 .fb{
+  height: 18px;
+  width: 18px;
+  background-image: url('/img/Facebook.png');
+  background-size: 100% 100%;
+}
+.section6 .git{
+  height: 18px;
+  width: 18px;
+  margin-left: 20px;
+  background-image: url('/img/Github.png');
+  background-size: 100% 100%;
+}
+.section6 .shape{
+  height: 18px;
+  width: 18px;
+  margin-left: 20px;
+  background-image: url('/img/Shape.png');
+  background-size: 100% 100%;
+}
+.section6 .slack{
+  height: 18px;
+  width: 18px;
+  margin-left: 20px;
+  background-image: url('/img/Slack.png');
+  background-size: 100% 100%;
+}
+.section6 .twit{
+  height: 18px;
+  width: 18px; 
+  margin-left: 20px;
+  background-image: url('/img/Twitter.png');
+  background-size: 100% 100%;
+}
+.section3 {
+  width: 100%;
+}
+.section3 .source-head {
+  margin-top: 230px;
+  font-family: ABeeZee;
+  margin-left:135px; 
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 34px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #04030f;
+}
+.section3 .source-subhead {
+  margin-top: 10px;
+  margin-left:135px; 
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 34px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #100f1a;
+}
+.section3 .spending-block {
+  background-color: #d8d8d8;
+  flex: 1;
+  border: 1px solid #979797;
+  box-sizing: border-box;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+  margin-top: 10px;
+  height: 450px;
+}
+.section3 .text {
+  margin-top: 480px;
+  text-align: center;
+  font-family: ABeeZee;
+  font-style: italic;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 11.2px;
+  letter-spacing: 0.84px;
+  color: #09203f;
+}
+.section3 .flex-container {
+  display: flex;
+  justify-content: left;
+}
+
+.section3 .spending-class {
+  margin-left: 60px;
+  margin-right: 20px;
+  margin-top: 50px;
+  height: 668px;
+  width: 1171px;
+}
+.section3 .utopia-location-text {
+  height: 1212px;
+  width: 100%;
+  background-color:#04030f;
+}
+
+.section3 .loaction-head {
+  height: 38px;
+  margin-left: 115px;
+  margin-top: 96px;
+
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+.section3 .location-subhead {
+  height: 108px;
+  width: 670px;
+  margin-left: 115px;
+  margin-top: 10px;
+  font-family: ABeeZee;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 36px;
+  font-size: 16px;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+}
+.section3 .world-map {
+  width: 100%;
+  height: 808px;
+  background-image: url("/img/map1.png");
+  background-repeat:no-repeat; 
+  background-size: 100% 100%;
+  background-color: #04030f;
+  overflow: hidden;
+}
+.section3 .world-map-header{
+  width: 100%;
+  height: 390px;
+  padding: 1% 0 3% 0;
+  background-color:#04030f;
+}
+.world-map-header h1{
+  margin-top:96px;
+  margin-left: 135px;
+  text-transform: uppercase;
+}
+.section3 .world-map-header p{
+  margin-top:18px;
+  margin-left:135px;
+}
