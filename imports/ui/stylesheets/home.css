@@ -1,0 +1,248 @@
+body{
+    color: black;
+    padding: 0px;
+    margin: 0px;
+    background-color: #f2f2f2;
+}
+
+.stats{
+    margin-top: 50px;
+}
+
+.container{
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.stats-content{
+    display: flex;
+    margin-top: 51px;
+}
+
+.my-karma{
+    flex: 1;
+    background: #fff;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.my-karma h1{
+    font-size: 14px;
+    line-height: 17px;
+    font-style: italic;
+    margin: 32px 0px 0px 32px;
+}
+
+.my-karma p{
+    font-size: 38px;
+    line-height: 45px;
+    font-style: italic;
+    margin: 22px 0px 0px 32px;
+}
+
+.my-balance{
+    flex: 1;
+    background: #fff;
+    margin-left: 24px;
+    margin-right: 24px;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.my-balance h1{
+    font-size: 14px;
+    line-height: 17px;
+    font-style: italic;
+    margin: 32px 0px 0px 32px;
+}
+
+.my-balance p{
+    font-size: 38px;
+    line-height: 45px;
+    font-style: italic;
+    margin: 22px 0px 0px 32px;
+}
+
+.token-price{
+    flex: 1;
+    background: #fff;
+    box-shadow: 0px 0px 3px #ccc;
+}
+
+.token-price h1{
+    font-size: 14px;
+    line-height: 17px;
+    font-style: italic;
+    margin: 32px 0px 0px 32px;
+}
+
+.token-price p{
+    font-size: 38px;
+    line-height: 45px;
+    font-style: italic;
+    margin: 22px 0px 0px 32px;
+}
+
+.utopia-apps{
+    margin-top: 90px;
+}
+
+.utopia-apps .heading{
+    display: flex;
+}
+
+.heading .title{
+    flex: 9;
+    font-size: 32px;
+    line-height: 51px;
+    font-style: italic;
+}
+
+.heading .new-app-button{
+    flex:1;
+}
+
+.new-app-button button{
+    width: 234px;
+    height: 51px;
+    background: white;
+    text-align: center;
+    border: 0;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.new-app-button button span{
+    font-size: 32px;
+    margin-left: 2%;
+}
+
+.utopia-apps .container .p{
+    margin-top: 24px;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.utopia-apps .apps{
+    display: flex;
+    flex-direction: column;
+}
+
+.apps .top-section{
+    flex: 1;
+    display: flex;
+    margin-top: 72px;
+
+}
+.apps .bottom-section{
+    flex: 1;
+    display: flex;
+    margin-top: 72px;
+}
+
+.myutopia{
+    flex: 1;
+}
+
+.legal{
+    flex: 1;
+}
+
+.business-manager{
+    flex: 1;
+}
+
+.finance{
+    flex: 1;
+}
+
+.maps{
+    flex: 1;
+}
+
+.education{
+    flex: 1;
+}
+
+.real-estate{
+    flex: 1;
+}
+
+.e-services{
+    flex: 1;
+}
+
+.voting{
+    flex: 1;
+}
+
+.utopians{
+    flex: 1;
+}
+
+.app-image{
+    width: 163px;
+    height: 163px;
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.apps p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 24px 0px 0px 0px;
+}
+
+.involvement{
+    margin-top: 120px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.content{
+    flex: 1;
+    display: flex;
+    margin-top: 48px;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    box-shadow: 0px 0px 5px #ccc;
+}
+
+.content .text{
+    flex: 7;
+}
+
+.content .text .title{
+    font-size: 16px;
+    line-height: 19px;
+    font-style: italic;
+    font-weight: bold;
+    margin: 48px 0px 0px 48px;
+}
+
+.content .text .desc{
+    font-size: 14px;
+    line-height: 24px;
+    margin: 13px 0px 48px 48px;
+}
+
+.content .link-button{
+    flex: 3;
+}
+
+.content .link-button button{
+    width:255px;
+    height: 51px;
+    border: 0px;
+    font-weight: bold;
+    background: white;
+    box-shadow: 0px 0px 3px #ccc;
+}
