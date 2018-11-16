@@ -6,32 +6,32 @@ body{
 
 .section1{
   width: 100%;
-  height: 660px;
+  min-height: 660px;
+  background-image: url("/img/Background5.png");
+  background-size: 100% 100%;
 }
 
 .section1 .wrapper{
-  height: 100%;
-  width: 100%;
-  background-image: url("/img/Background5.png");
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  overflow: hidden;
+  width: 80%;
+  height: 660px;
+  margin-left: auto;
+  margin-right: auto;
 }
+
 .section1 .logo{
   width: 140px;
   height: 50px;
   background-image: url("/img/section1logo.png");
   background-size: 100% 100%;
-  margin-top: 100px;
-  margin-left: 68px;
+  margin-top: 8%;
   display: inline-block;
 }
 .section1 .navigation{
   width: 580px;
   height: 17px;
   display: inline-block;
-  margin-top: 122px;
-  margin-left: 144px;
+  margin-top: 10%;
+  margin-left: 100px;
   font-style: italic;
   vertical-align: top;
 }
@@ -45,10 +45,9 @@ body{
 
 .section1 .signin{
   width: 154px;
-  height: 17px;
   display: inline-block;
-  margin-top: 122px;
-  margin-left: 100px;
+  margin-top: 10%;
+  margin-left: 10px;
   vertical-align: top;
 }
 
@@ -75,7 +74,7 @@ body{
 .section1 .content{
   width: 650px;
   height: 265px;
-  margin-top: 102px;
+  margin-top: 10%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -115,67 +114,63 @@ body{
 .section1 .content .left-list ul li {
   margin-top: 10px;
 }
+ 
+
 .video-section{
   width: 100%;
-  height: 1156px;
+  color: black;
+  border-collapse: separate;
 }
 
 .video-section .wrapper{
-  width: 81%;
-  height: 1156px;
-  margin: 196px auto;
+  width: 80%;
+  margin: 14% auto;
+  border-collapse: separate;
 }
 
-.opq{
-  opacity: 0.25;
-}
-
-.video-section .header{
-  margin: 0 auto;
-  width: 520px;
-  height: 96px;
+.video-section .wrapper h1{
   font-size: 32px;
-  line-height: 48px;
+  line-height: 38px;
   text-align: center;
+  margin: 0;
+  padding: 0;
   font-style: italic;
-  color: black;
 }
 
-.video-section .content{
-  width: 970px;
-  height: 108px;
+.video-section .wrapper p{
+  padding: 0px;
   margin-top: 36px;
-  margin-left: auto;
-  margin-right: auto;
   font-size: 16px;
   line-height: 36px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
   text-align: center;
-  color: black;
 }
 
 .video-section .video{
   width: 100%;
   height: 600px;
   background: grey;
-  margin-top: 120px;
-}
-
-.video-section .video iframe{
-  height: 100%;
-  width: 100%;
+  margin-top: 8%;
 }
 
 .section2{
   width: 100%;
-  height: 2048px;
   background: #04030F;
   overflow: hidden;
+}
+
+.opq{
+  opacity: 0.25;
 }
 
 .section2 .button-group{
   width: 84px;
   height: 12px;
-  margin-top: 48px;
+  margin-top: 4%;
+  margin-left: 30%;
+
 }
 
 .section2 .button-group button{
@@ -195,12 +190,8 @@ body{
   opacity: 0.5;
 }
 
-.section2 .section2-button-group{
-  margin-left: 205px;
-}
-
 .section2 .wrapper{
-  width: 100%;
+  width: 80%;
   height: 1728px;
   margin-top: 200px;
   margin-left: auto;
@@ -211,76 +202,40 @@ body{
 
 .section2 .wrapper .part1{
   flex: 1;
-  width: 1041px;
+  width: 100%;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .section2 .wrapper .part1 .container-left{
-  flex: 0.42;
+  flex: 4;
   background-image: url("/img/ui-1.png");
   background-size: 100% 100%;
+  
 }
 
-.section2 .wrapper .part1 .container-left .header{
-  background: #43E97B;
-  width: 366px;
-  height: 202px;
-}
-
-.section2 .wrapper .part1 .container-left .menu{
-  width: 338px;
-  height: 168px;
-  background: #fff;
-  position: relative;
-  top: -28px;
-  left: 153px;
-}
-
-.section2 .wrapper .part1 .container-left .my-balance{
-  background-image: url("/img/Background1.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: top;
-  width: 338px;
-  height: 131px;
-  position: relative;
-  top: -58px;
-  left: 36px;
-}
 .section2 .wrapper .part1 .container-right{
-  flex: 0.58;
+  flex: 6;
 }
 
-.section2 .wrapper .part1 .container-right .info{
-  width: 470px;
-  height: 184px;
-  margin-left: 205px;
-}
-
-.section2 .wrapper .part1 .container-right .info-title{
-  margin-top: 60px;
-  width: 396px;
-  height: 29px;
+.section2 .wrapper .part1 .container-right h1{
   font-size: 24px;
-  line-height: 28px;
-  font-style: italic;
+  margin-top: 13%;
+  margin-left: 30%;
+  margin-bottom :0%;
 }
 
-.section2 .wrapper .part1 .container-right .info-content{
-  margin-top: 19px;
-  width: 407px;
-  height: 102px;
+.section2 .wrapper .part1 .container-right p{
+  margin-top: 4%;
+  margin-left: 30%;
+  margin-bottom: 0%;
   font-size: 16px;
-  line-height: 43px;
+  line-height: 34px;
 }
 
 .section2 .wrapper .part1 .container-right .button-utopia-business-app{
   width: 227px;
   height: 59px;
-  margin-top: 14px;
-  margin-left: 205px;
+  margin-top: 4%;
   border: 2px solid white;
   border-radius: 4px;
   font-size: 18px;
@@ -288,48 +243,40 @@ body{
   text-align: center;
   line-height: 60px;
   font-style: italic;
+  background: transparent;
+  margin-left: 30%;
 }
 
 .section2 .wrapper .part2{
   flex: 1;
   margin-top: 200px;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
-  width: 1041px;
+  width: 100%;
 }
 
 .section2 .wrapper .part2 .container-left{
-  flex: 0.58;
+  flex: 6;
+  flex-wrap: wrap;
 }
 
-.section2 .wrapper .part2 .container-left .info{
-  width: 470px;
-  height: 184px;
-  margin-top: 69px;
-}
-
-.section2 .wrapper .part2 .container-left .info-title{
-  margin-top: 60px;
-  width: 396px;
-  height: 29px;
+.section2 .wrapper .part2 .container-left h1{
   font-size: 24px;
+  margin-top: 13%;
   line-height: 28px;
-  font-style: italic;
+  margin-bottom :0%;
 }
 
-.section2 .wrapper .part2 .container-left .info-content{
-  margin-top: 19px;
-  width: 407px;
-  height: 102px;
+.section2 .wrapper .part2 .container-left p{
+  margin-top: 4%;
+  margin-bottom: 0%;
   font-size: 16px;
-  line-height: 43px;
+  line-height: 34px;
 }
 
 .section2 .wrapper .part2 .container-left .button-utopia-gold-app{
   width: 227px;
   height: 59px;
-  margin-top: 14px;
+  margin-top: 4%;
   border: 2px solid white;
   border-radius: 4px;
   font-size: 18px;
@@ -337,109 +284,60 @@ body{
   text-align: center;
   line-height: 60px;
   font-style: italic;
+  background: transparent;
 }
 
 .section2 .wrapper .part2 .container-right{
-  flex: 0.42;
+  flex: 4;
   background-image: url("/img/ui-3.png");
   background-size: 100% 100%;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap;
 }
 
-.section2 .wrapper .part2 .container-right .send-money{
-  width: 338px;
-  height: 151px;
-  background: white;
-  margin-left: 168px
-}
-
-.section2 .wrapper .part2 .container-right .expenses{
-  margin-top: 30px;
-  margin-left: 105px;
-  width: 338px;
-  height: 262px;
-  background: white;
-}
-
-.section2 .wrapper .part2 .container-right .my-balance{
-  width: 338px;
-  height: 131px;
-  background-image: url("img/Background3.png");
-  background-size: cover;
-  position: relative;
-  top: -360px;
+.section2 .wrapper .part2 .container-left .part2-button-group{
+  margin-left: 0%;
 }
 
 .section2 .wrapper .part3{
   flex: 1;
-  width: 1041px;
+  width: 100%;
   margin-top: 200px;
+  padding-bottom: 10%;
   display: flex;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .section2 .wrapper .part3 .container-left{
-  flex: 0.42;     
+  flex: 4;     
   background-image: url("/img/ui-2.png");
   background-size: 100% 100%;
 }
 
-.section2 .wrapper .part3 .container-left .header{
-  width: 366px;
-  height: 202px;
-  background: #43E97B;
-}
-
-.section2 .wrapper .part3 .container-left .menu{
-  width: 338px;
-  height: 168px;
-  margin-left: 110px;
-  background: white;
-  position: relative;
-  top: -36px;
-}
-
-.section2 .wrapper .part3 .container-left .my-balance{
-  width: 338px;
-  height: 137px;
-  margin-left: 36px;
-  background-image: url("/img/Background4.png");
-  position: relative;
-  top: -64px;
-}
-
 .section2 .wrapper .part3 .container-right{
-  flex: 0.58;
+  flex: 6;
 }
 
-.section2 .wrapper .part3 .container-right .info{
-  width: 470px;
-  height: 184px;
-  margin-top: 86px;
-  margin-left: 205px;
-}
-
-.section2 .wrapper .part3 .container-right .info-title{
-  width: 380px;
-  height: 29px;
-  color: white;
+.section2 .wrapper .part3 .container-right h1{
   font-size: 24px;
-  line-height: 28px;
-  font-style: italic;
+  margin-top: 13%;
+  margin-left: 30%;
+  margin-bottom :0%;
 }
 
-.section2 .wrapper .part3 .container-right .info-content{
-  color: white;
-  margin-top: 19px;
+.section2 .wrapper .part3 .container-right p{
+  margin-top: 4%;
+  margin-bottom: 0%;
   font-size: 16px;
   line-height: 34px;
+  margin-left: 30%;
 }
+
 
 .section2 .wrapper .part3 .container-right .button-government-app{
   width: 227px;
   height: 59px;
-  margin-top: 14px;
-  margin-left: 205px;
+  margin-top: 4%;
   border: 2px solid white;
   border-radius: 4px;
   font-size: 18px;
@@ -447,7 +345,10 @@ body{
   text-align: center;
   line-height: 60px;
   font-style: italic;
+  background: transparent;
+  margin-left: 30%;
 }
+
 .section4{
     height:590px;
     width: 100%;
