@@ -41,6 +41,7 @@ body{
   color: white;
   font-size: 14px;
   margin-right: 37px;
+  font-family: Colfax Medium;
 }
 
 .section1 .signin{
@@ -55,7 +56,6 @@ body{
   font-size: 14px;
   text-decoration: none;
   color: white;
-  font-style: italic;
 }
 
 .section1 .signup{
@@ -64,11 +64,13 @@ body{
 
 .section1 .signup a{
   color: #492FB4;
+  font-family: Colfax Medium;
 }
 
 .section1 .login{
   display: inline-block;
   margin-left: 44px;
+  font-family: Colfax Medium;
 }
 
 .section1 .content{
@@ -97,14 +99,14 @@ body{
   list-style: none;
   font-size: 38px;
   margin-top: 92px;
-  font-style: italic;
+  font-family: Colfax Bold;
 }
 
 .section1 .content .right-list ul{
   color: #492FB4;
   list-style: none;
   font-size: 38px;
-  font-style: italic;
+  font-family: Colfax Bold;
 }
 
 .section1 .content .right-list ul li {
@@ -135,6 +137,8 @@ body{
   margin: 0;
   padding: 0;
   font-style: italic;
+  font-family: Colfax Medium;
+  color: black;
 }
 
 .video-section .wrapper p{
@@ -146,6 +150,8 @@ body{
   margin-right: auto;
   margin-bottom: 0px;
   text-align: center;
+  color: black;
+  font-family: Colfax Regular;
 }
 
 .video-section .video{
@@ -222,6 +228,8 @@ body{
   margin-top: 13%;
   margin-left: 30%;
   margin-bottom :0%;
+  line-height: 28px;
+  font-family: Colfax Medium;
 }
 
 .section2 .wrapper .part1 .container-right p{
@@ -245,6 +253,7 @@ body{
   font-style: italic;
   background: transparent;
   margin-left: 30%;
+  font-family: Colfax Medium;
 }
 
 .section2 .wrapper .part2{
@@ -264,6 +273,7 @@ body{
   margin-top: 13%;
   line-height: 28px;
   margin-bottom :0%;
+  font-family: Colfax Medium;
 }
 
 .section2 .wrapper .part2 .container-left p{
@@ -285,6 +295,7 @@ body{
   line-height: 60px;
   font-style: italic;
   background: transparent;
+  font-family: Colfax Medium;
 }
 
 .section2 .wrapper .part2 .container-right{
@@ -323,6 +334,8 @@ body{
   margin-top: 13%;
   margin-left: 30%;
   margin-bottom :0%;
+  line-height: 28px;
+  font-family: Colfax Medium;
 }
 
 .section2 .wrapper .part3 .container-right p{
@@ -331,6 +344,7 @@ body{
   font-size: 16px;
   line-height: 34px;
   margin-left: 30%;
+  font-family: Colfax Regular;
 }
 
 
@@ -347,6 +361,7 @@ body{
   font-style: italic;
   background: transparent;
   margin-left: 30%;
+  font-family: Colfax Medium;
 }
 
 .section4{
@@ -361,9 +376,7 @@ body{
   margin-top: 72px;
   height:59px;
   width: 256px;
-  font-family: ABeeZee;
-  font-style: italic;
-  font-weight: normal;
+  font-family: Colfax Medium;
   line-height: normal;
   font-size: 18px;
   letter-spacing: 1px;
@@ -374,9 +387,7 @@ body{
 .section4 .account-section-header{
      margin-left: 135px;
      margin-top:90px;
-     font-family: ABeeZee;
-     font-style: italic;
-     font-weight: normal;
+     font-family: Colfax Medium;
      line-height: normal;
      font-size: 32px;
      letter-spacing: 1px;
@@ -385,9 +396,7 @@ body{
 
 }
 .section4 .account-sec-text{
-  font-family: ABeeZee;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Colfax Medium;
   line-height: 28px;
   font-size: 23px;
   letter-spacing: 1px;    
@@ -411,9 +420,7 @@ body{
 }
 
 .section5 .text{
-font-family: ABeeZee;
-font-style: italic;
-font-weight: normal;
+font-family: Colfax Medium;
 line-height: normal;
 font-size: 28px;
 letter-spacing: 1.16667px;
@@ -422,18 +429,14 @@ color: #FFFFFF;
 
 }
 .section5 .subtext{
-  font-family: ABeeZee;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Colfax Regular;
   line-height: 36px;
   font-size: 16px;
   letter-spacing: 1px;    
   color: #FFFFFF;    
 }
 .section5 .button-text{
-  font-family: ABeeZee;
-  font-style: italic;
-  font-weight: normal;
+  font-family: Colfax Medium;
   line-height: normal;
   font-size: 18px;
   letter-spacing: 1px;
@@ -490,8 +493,17 @@ background: #04030F
    display:flex;
    align-items: center;
 }
-.copyright-text{
-  margin-left:135px;
+.section6 .copyright-text{
+margin-left:135px;
+font-family: Colfax Medium;
+line-height: normal;
+font-size: 18px;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+
 }
 .section6 .section-right{
   flex: 3;
@@ -538,12 +550,10 @@ background: #04030F
 }
 .section3 .source-head {
   margin-top: 230px;
-  font-family: ABeeZee;
+  font-family: Colfax Medium;
   margin-left:135px; 
-  font-style: italic;
-  font-weight: normal;
   line-height: normal;
-  font-size: 34px;
+  font-size: 32px;
   letter-spacing: 1px;
   text-transform: uppercase;
 
@@ -552,9 +562,7 @@ background: #04030F
 .section3 .source-subhead {
   margin-top: 10px;
   margin-left:135px; 
-  font-family: ABeeZee;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Colfax Regular;
   line-height: 34px;
   font-size: 16px;
   letter-spacing: 1px;
@@ -576,9 +584,7 @@ background: #04030F
 .section3 .text {
   margin-top: 480px;
   text-align: center;
-  font-family: ABeeZee;
-  font-style: italic;
-  font-weight: normal;
+  font-family: Colfax Medium;
   line-height: normal;
   font-size: 11.2px;
   letter-spacing: 0.84px;
@@ -604,12 +610,9 @@ background: #04030F
 
 .section3 .loaction-head {
   height: 38px;
-  margin-left: 115px;
+  margin-left: 135px;
   margin-top: 96px;
-
-  font-family: ABeeZee;
-  font-style: normal;
-  font-weight: normal;
+  font-family:  Colfax Medium;
   line-height: normal;
   font-size: 32px;
   letter-spacing: 1px;
@@ -620,11 +623,9 @@ background: #04030F
 .section3 .location-subhead {
   height: 108px;
   width: 670px;
-  margin-left: 115px;
+  margin-left: 135px;
   margin-top: 10px;
-  font-family: ABeeZee;
-  font-style: normal;
-  font-weight: normal;
+  font-family: Colfax Regular;
   line-height: 36px;
   font-size: 16px;
   letter-spacing: 1px;
