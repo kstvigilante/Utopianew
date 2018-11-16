@@ -703,7 +703,7 @@ background: #04030F
 
 .section3 .loaction-head {
   height: 38px;
-  margin-left: 115px;
+  margin-left: 135px;
   margin-top: 96px;
 
   font-family: ABeeZee;
@@ -716,10 +716,8 @@ background: #04030F
 
   color: #ffffff;
 }
-.section3 .location-subhead {
-  height: 108px;
-  width: 670px;
-  margin-left: 115px;
+.section3 .loaction-subhead{
+  margin-left: 135px;
   margin-top: 10px;
   font-family: ABeeZee;
   font-style: normal;
@@ -746,7 +744,7 @@ background: #04030F
   padding: 1% 0 3% 0;
   background-color:#04030f;
 }
-.world-map-header h1{
+/* .world-map-header h1{
   margin-top:96px;
   margin-left: 135px;
   text-transform: uppercase;
@@ -754,4 +752,23 @@ background: #04030F
 .section3 .world-map-header p{
   margin-top:18px;
   margin-left:135px;
+} */
+.section3 .governmentApp{
+  background-image: url("/img/utopiaGov.png");
+  background-repeat:no-repeat; 
+  background-size: 100% 100%;
+  z-index:+1;
+}
+.section3 .utopiaGoldApp{
+  background-image: url("/img/utopia.jpg");
+  background-repeat:no-repeat; 
+  background-size: 100% 100%;
+  z-index:+1;
+}
+.section3 .utopiaBusinessApp{
+  background-image: url("/img/business.jpg");
+  background-repeat:no-repeat; 
+  background-size: 100% 100%;
+  z-index:+1;
+
 }
