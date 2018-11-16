@@ -3,7 +3,7 @@ body {
 }
 @font-face {
   font-family: 'Colfax Regular';
-  src: url('/fonts/Colfax-Regular.woff');
+  src: url('/fonts/Colfax-Regular.tff');
   }
   
   @font-face {
@@ -70,3 +70,93 @@ body {
   font-family: 'Colfax Black Italic';
   src: url('/fonts/Colfax-BlackItalic.woff');
   }
+
+@font-face {
+  font-family: 'GoogleSans Bold';
+  src:  url('/fonts/GoogleSans-Bold.tff');
+  }
+  
+  
+  @font-face {
+  font-family: 'GoogleSans Bold Italic';
+  src: url('/fonts/GoogleSans-BoldItali.tff');
+  }
+  
+  
+  @font-face {
+  font-family: 'GoogleSans Italic';
+  src:  url('/fonts/GoogleSans-Italic.tff');
+  }
+  
+  
+  @font-face {
+  font-family: 'GoogleSans Medium';
+  src: url('/fonts/GoogleSans-Medium.tff');
+  }
+  
+  
+  @font-face {
+  font-family: 'GoogleSans Medium Italic';
+  src:url('/fonts/GoogleSans-MediumItalic.tff');
+  }
+  
+  
+  @font-face {
+  font-family: 'GoogleSans Regular';
+  src: url('/fonts/GoogleSans-Regular.tff');
+  }
+
+
+  @font-face {
+    font-family: 'LucidaGrande';
+    src:url('/fonts/LucidaGrande.tff');
+    }
+    
+    
+    @font-face {
+    font-family: 'LucidaGrande Bold';
+    src: url('/fonts/LucidaGrandeBold.tff');
+    }
+  
+  @font-face {
+    font-family: 'brandon-grotesque-black';
+    src: url('/fonts/brandon-grotesque-black.otf');
+    }
+    
+    
+    @font-face {
+    font-family: 'brandon-grotesque-bold-italic';
+    src:  url('/fonts/brandon-grotesque-bold-italic.otf');
+    }
+    
+    
+    @font-face {
+    font-family: 'brandon-grotesque-light-italic';
+    src: url('/fonts/brandon-grotesque-light-italic.otf');
+    }
+    
+    
+    @font-face {
+    font-family: 'brandon-grotesque-light';
+    src:url('/fonts/brandon-grotesque-light.otf');
+    }
+    
+    
+    @font-face {
+    font-family: 'brandon-grotesque-medium-italic';
+    src: url('/fonts/brandon-grotesque-medium-italic.otf');
+    }
+  
+  
+    @font-face {
+      font-family: 'brandon-grotesque-regular-italic';
+      src:url('/fonts/brandon-grotesque-regular-italic.otf');
+      }
+      
+      
+      @font-face {
+      font-family: 'brandon-grotesque-thin-italic';
+      src: url('/fonts/brandon-grotesque-thin-italic.otf');
+      }
+    
+    
