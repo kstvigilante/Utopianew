@@ -1,0 +1,139 @@
+body{
+    padding: 0.1px;
+    margin: 0px;
+    color: white;
+  }
+  .operate{
+      height: 2149px;
+      width: 100%;
+      background: #04030F;
+  }
+  .operate .head{
+      height: 660px;
+      width: 100%;
+      background-image: url("/img/Background5.png");
+      background-repeat: no-repeat;
+      overflow: hidden;
+  }
+
+  .operate .head .utopia{
+    height: 100px;
+    width: 100%;
+    margin-top: 100px;
+    margin-left: 40%;
+   background-image: url("/img/UtopiaLogo.png");
+   background-repeat: no-repeat;
+    
+  }
+  
+  .insideutopia{
+    height:59px;
+    width:204px;
+    border: 2px solid  #3023AE  ;
+    box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
+    border-radius: 4px; 
+  }
+  .operate .head .navigation{
+    width: 100%;
+    height: 17px;
+    display: flex;
+    justify-content: center;
+  }
+  .operate .head .navigation a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    margin-right: 37px;
+    opacity: 0.5;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-family: Colfax Medium;
+ 
+  }
+  .heading{
+    height: 150px;
+    width: 100%;
+   margin-top: 300px;
+   margin-left: 30px;  
+font-family: Colfax;
+line-height: 48px;
+font-size: 32px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+margin-top: 96px;
+color: #FFFFFF;
+  }
+  .subdata{
+
+font-family: Colfax;
+line-height: 36px;
+font-size: 16px;
+text-align: center;
+letter-spacing: 1px;
+color: #FFFFFF;
+
+
+  }
+  
+  .gitbutton{
+     margin-left: 550px;
+     margin-top: 20px;
+     height: 51px;
+     width: 255px; 
+     background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
+     box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+     border-radius: 6px;
+
+  }
+  .oval{
+      flex: 1;
+      height: 250px;
+      background-image: url("/img/forimg.png");
+      background-repeat: no-repeat;
+      background-size: 163px 163px;
+  }
+  .parentoval{
+      margin-left: 150px;
+      margin-right: 150px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .text{
+
+margin-top: 180px;
+margin-right: 50px;
+font-family: Colfax;
+line-height: 24px;
+font-size: 16px;
+text-align: center;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+  }
+.text2{
+margin-top: 120px;
+font-family: Colfax;
+line-height: 48px;
+font-size: 32px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #FFFFFF;
+
+  }
+ .lowertext{
+     margin-top: 50px;
+ }
+ .uppertext{
+font-family: Colfax;
+line-height: 50px;
+font-size: 33px;
+text-align: center;
+letter-spacing: 0.6px;
+text-transform: uppercase;
+color: #FD2A2A;
+ }

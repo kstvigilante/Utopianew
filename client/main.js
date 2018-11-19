@@ -1,2 +1,7 @@
 import "./main.html"
 import "../imports/ui/pages/main/utopia.js"
+import "../imports/ui/pages/main/contributor.js"
+import "../imports/ui/pages/main/Utopia_Operating_System.js"
+import "../imports/ui/pages/main/Header.js"
+import "../imports/ui/pages/main/Involved.js"
+import "../imports/ui/pages/main/Shop.js"
