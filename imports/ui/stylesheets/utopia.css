@@ -642,26 +642,26 @@ body {
   background-image: url("/img/utopiaGov.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  z-index: +1;
+  z-index: 1;
 }
 .section3 .utopiaGoldApp {
   background-image: url("/img/utopia.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  z-index: +1;
+  z-index: 1;
 }
 .section3 .utopiaBusinessApp {
   background-image: url("/img/business.jpg");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  z-index: +1;
+  z-index: 1;
 }
 /* ------------===============---------------------- */
 .business-row {
   margin-left: 120px;
   margin-top: 76px;
   height: 250px;
-  width: 970px;
+  max-width: 970px;
   background-color: #ffffff;
 }
 .manager-head-text {
@@ -690,7 +690,7 @@ body {
   background-position: top left;
   background-image: url("/img/businesslogo.png");
   background-repeat: no-repeat;
-  z-index: +1;
+  z-index: 1;
   overflow: hidden;
 }
 .share-vesting-class {
@@ -700,42 +700,194 @@ body {
   background-color: #ffffff;
 }
 .share-vesting {
-  width: 80%;
+  max-width: 80%;
   height: 335px;
   margin-left: 135px;
-  background-image: url("/img/FeatureRequests.png");
+  background-image: url("/img/FeatureRequestss.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
   background-position: top;
   overflow: hidden;
 }
-.share-vesting-text{
-  display:flex;
+.share-vesting-text {
+  display: flex;
 }
 .share-text {
   margin-left: 3%;
+  margin-top: 50px;
   font-family: ABeeZee;
   font-style: italic;
   font-weight: normal;
   line-height: normal;
   font-size: 32px;
   color: #000000;
-  flex:start;
+  flex: start;
 }
 .share-github-text {
-  margin-top:15px;
+  margin-top: 55px;
   margin-left: 60%;
   font-family: ABeeZee;
   font-style: italic;
   font-weight: normal;
   line-height: normal;
-  font-size: 14px;
+  font-size: 10px;
   color: #000000;
 }
-.github-image {
-  background-image: url("/img/sharevasting.png");
+
+/* =========================== Utopia Home ==================================== */
+.utopiaHomeCss {
+  max-width: 100%;
+  background-image: url("/img/Background5.png");
+}
+.aboutUtopiaHead {
+  font-family: Colfax;
+  line-height: 48px;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.aboutUtopiaSubHead {
+  margin-top: 35px;
+  font-family: Colfax;
+  line-height: 36px;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: 1px;
+  color: #ffffff;
+  padding-left: 50px;
+}
+.utopiaImagePic1 {
+  max-width: 900px;
+  height: 510px;
+  margin-left: 17%;
+  background-image: url("/img/utopiaPic1.png");
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  background-position: top;
+  background-position: center;
   overflow: hidden;
+}
+
+.utopia-text-box {
+  max-width: 100%;
+  margin-top: 150px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10px;
+  margin-left:2%;
+}
+.decentralization-head-text {
+  max-width: 600px;
+  font-family: Colfax;
+  line-height: 48px;
+  font-size: 32px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+  flex: 1;
+}
+.decentralization-subhead-text {
+  font-family: Colfax;
+  line-height: 36px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #ffffff;
+}
+.utopiaImagePic2 {
+  max-width: 470px;
+  height: 308px;
+  background-image: url("/img/utopiaIllustration1.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 20px;
+  z-index: 1;
+  flex: 1;
+}
+.utopiaImagePic3 {
+  max-width: 470px;
+  height: 308px;
+  background-image: url("/img/Illustration1.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 20px;
+  z-index: 1;
+  flex: 1;
+  
+}
+
+.newIllustrationBox{
+max-width:258px;
+height:58px;
+margin:25%;
+z-index: 1;
+text-align:center;
+
+background-color: #FFFFFF;
+color: #000000;
+}
+.newIllustrationText{
+  text-align: center;
+  padding:20px;
+  text-transform: uppercase;
+  font-size: 12px;
+}
+
+
+.mapText{
+  max-width:100%;
+  background-image: url("/img/Background5.png");
+}
+.wikiButton{
+max-width:167px;
+height:51px;
+font-family: Colfax;
+font-Style: Medium;
+font-Size: 14px;
+line-height: 15px;
+letter-spacing: 0.6px;
+fill: Solid;
+margin-left:45%;
+background-color:#FFFFFF; 
+background: linear-gradient(164.34deg, #3023AE -36.97%, #C86DD7 148.62%);
+box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+}
+
+.mapGroup{
+  max-width: 1638.46px;
+  height: 807px;
+  background-image: url("/img/mapGroup.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 120px;
+  z-index: 1;
+}
+.mapCard{
+  max-width:100%;
+  height: 406px;
+  background-image: url("/img/card.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top: 120px;
+  margin-left:60%;
+  z-index: 1;
+}
+.mapChat{
+  max-width:100%;
+  height: 209px;
+  background-image: url("/img/chat1.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  margin-top:130px;
+  margin-left:10%;
+  z-index: 1;
+}
+.mapChatCopy{
+  max-width:100%;
+  height: 209px;
+  margin-left:15%;
+  background-image: url("/img/chat1Copy.png");
+  background-repeat: no-repeat;
+  overflow: hidden;
+  z-index: 1;
 }
