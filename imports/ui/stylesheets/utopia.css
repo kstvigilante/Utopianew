@@ -1,5 +1,5 @@
 body {
-  padding: 0.1px;
+  padding: 0px;
   margin: 0px;
   color: white;
 }
@@ -740,6 +740,8 @@ body {
   background-image: url("/img/Background5.png");
 }
 .aboutUtopiaHead {
+  margin: 0px;
+  padding: 0px;
   font-family: Colfax;
   line-height: 48px;
   font-size: 32px;

@@ -1,10 +1,10 @@
 body{
-    padding: 0.1px;
+    padding: 0px;
     margin: 0px;
     color: white;
   }
  .head{
-    height: 660px;
+    height: 300px;
     width: 100%;
     background-image: url("/img/Background5.png");
     background-repeat: no-repeat;
@@ -16,9 +16,9 @@ body{
   width: 100%;
   margin-top: 100px;
   margin-left: 40%;
- background-image: url("/img/UtopiaLogo.png");
- background-repeat: no-repeat;
-  
+  background-image: url("/img/UtopiaLogo.png");
+  background-repeat: no-repeat;
+    
 }
 
 .insideutopia{
@@ -44,4 +44,14 @@ body{
   text-transform: uppercase;
   font-family: Colfax Medium;
 
+}
+
+.nav-link {
+  opacity: 1;  
+  font-family: Colfax-Medium;
+  font-size: 14px;
+  color: #FFFFFF;
+  letter-spacing: 1px;
+  opacity: 0.5;
+  text-transform: uppercase;
 }
