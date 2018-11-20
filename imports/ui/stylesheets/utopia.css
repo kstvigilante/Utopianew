@@ -735,6 +735,11 @@ body {
 }
 
 /* =========================== Utopia Home ==================================== */
+.utopiaHomeWrapper{
+  margin-left:auto;
+  margin-right:auto;
+  max-width: 90%;
+}
 .utopiaHomeCss {
   max-width: 100%;
   background-image: url("/img/Background5.png");
@@ -776,16 +781,6 @@ body {
   height: 600px;
   background: grey;
   margin-top: 8%;
-}
-.utopiaImagePic1 {
-  max-width: 900px;
-  height: 510px;
-  margin-left: 17%;
-  background-image: url("/img/utopiaPic1.png");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-  background-position: center;
-  overflow: hidden;
 }
 
 .utopia-text-box {
@@ -829,7 +824,7 @@ body {
   background-image: url("/img/Illustration1.png");
   background-repeat: no-repeat;
   overflow: hidden;
-  margin-top: 20px;
+  margin-top: 25px;
   z-index: 1;
   flex: 1;
   
@@ -853,33 +848,41 @@ color: #000000;
 }
 
 /* ============================== Map ======================= */
-.mapText{
+.mapWrapper{
   max-width:100%;
   background-image: url("/img/Background5.png");
+  background-size: 100% 100%;
 }
-.wikiButton{
-max-width:167px;
-height:51px;
-font-family: Colfax;
-font-Style: Medium;
-font-Size: 14px;
-line-height: 15px;
-letter-spacing: 0.6px;
-fill: Solid;
-margin-left:45%;
-background-color:#FFFFFF; 
-background: linear-gradient(164.34deg, #3023AE -36.97%, #C86DD7 148.62%);
-box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+.mapText {
+  
+  margin-left: auto;
+  margin-right: auto;
+}
+.wikiButton {
+  max-width: 167px;
+  height: 51px;
+  font-family: Colfax;
+  font-style: Medium;
+  font-size: 14px;
+  line-height: 15px;
+  letter-spacing: 0.6px;
+  fill: Solid;
+  border:0px;
+  margin-left: 45%;
+  margin-top:50px;
+  background-color: #ffffff;
+  background: linear-gradient(164.34deg, #3023ae -36.97%, #c86dd7 148.62%);
+  box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
 }
 
-.mapGroup{
-  max-width:1638.46px;
+.mapGroup {
+  max-width: 1638.46px;
   height: 807px;
   background-image: url("/img/utopiaMap.png");
   background-repeat: no-repeat;
   overflow: hidden;
   margin-top: 120px;
   z-index: 1;
-  padding-bottom:5%;
-
+  padding-bottom: 5%;
+  background-size: 100% 100%;
 }

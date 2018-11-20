@@ -2,6 +2,7 @@ body{
     padding: 0.1px;
     margin: 0px;
     color: white;
+    background: #04030F;
   }
   .mainshophead{
     width: 90%;
@@ -20,6 +21,8 @@ body{
     height: 350px;
     width: 270px;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .utopiaimg{
     height: 200px;
@@ -30,18 +33,18 @@ body{
     /* background: aquamarine; */
 }
 .tag{
-    margin-top: 20px;;
-  /*   font-family: Colfax;
+    margin-top: 100%;
+    margin-left: 13%;
+    font-family: Colfax;
     line-height: 16px;
     font-size: 16px;
     letter-spacing: 1px;
-    text-transform: uppercase; */
+    text-transform: uppercase;
     color: #FFFFFF;
-    background-color: aqua;
 }
 .subtag{
-    margin-top: 80%;
-
+    margin-top: 5%;
+    margin-left: 25%;
     font-family: Colfax;
     line-height: 16px;
     font-size: 16px;
