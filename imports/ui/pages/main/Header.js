@@ -5,7 +5,7 @@ Template.Head.events({
         FlowRouter.go('/');
     },
     "click .ostag": function(){
-        FlowRouter.go('/utopia_os');
+        FlowRouter.go('/utopiaos');
     },
     "click .location": function(){
         FlowRouter.go('/location');

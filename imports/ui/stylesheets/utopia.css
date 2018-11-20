@@ -758,7 +758,24 @@ body {
   text-align: center;
   letter-spacing: 1px;
   color: #ffffff;
-  padding-left: 50px;
+}
+.utopiaVideo {
+  width: 100%;
+  color: black;
+  border-collapse: separate;
+}
+
+.utopiaVideo .wrapper {
+  width: 68%;
+  margin: 2% auto;
+  border-collapse: separate;
+}
+
+.utopiaVideo .video {
+  width: 100%;
+  height: 600px;
+  background: grey;
+  margin-top: 8%;
 }
 .utopiaImagePic1 {
   max-width: 900px;
@@ -835,7 +852,7 @@ color: #000000;
   font-size: 12px;
 }
 
-
+/* ============================== Map ======================= */
 .mapText{
   max-width:100%;
   background-image: url("/img/Background5.png");

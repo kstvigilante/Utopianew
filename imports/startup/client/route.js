@@ -1,17 +1,20 @@
 import { FlowRouter } from 'meteor/kadira:flow-router';
 import { BlazeLayout } from 'meteor/kadira:blaze-layout';
 import "../../ui/pages/main/utopiaHome.js";
-
+import "../../ui/pages/main/Utopia_Operating_System.js";
+import "../../ui/pages/main/Involved.js";
+import "../../ui/pages/main/utopiaMapPage.js";
+import "../../ui/pages/main/Shop.js";
 FlowRouter.route('/', {
     name: 'utopiaHome',
     action() {
       BlazeLayout.render('App_body', { main: 'utopiaHome' });
     },
   });
-FlowRouter.route('/utopia_os', {
-    name: 'Utopia_Operating_System',
+FlowRouter.route('/utopiaos', {
+    name: 'operating',
     action() {
-      BlazeLayout.render('App_body', { main: 'Utopia_Operating_System' });
+      BlazeLayout.render('App_body', { main: 'operating' });
     },
   });
   FlowRouter.route('/Involved', {
@@ -21,27 +24,27 @@ FlowRouter.route('/utopia_os', {
     },
   });
   FlowRouter.route('/location', {
-    name: 'Involved',
+    name: 'utopiaMapPage',
     action() {
-      BlazeLayout.render('App_body', { main: 'Involved' });
+      BlazeLayout.render('App_body', { main: 'utopiaMapPage' });
     },
   });
   FlowRouter.route('/consti', {
-    name: 'Involved',
+    name: 'utopiaHome',
     action() {
-      BlazeLayout.render('App_body', { main: 'Involved' });
+      BlazeLayout.render('App_body', { main: 'utopiaHome' });
     },
   });
   FlowRouter.route('/shop', {
-    name: 'Involved',
+    name: 'Shop',
     action() {
-      BlazeLayout.render('App_body', { main: 'Involved' });
+      BlazeLayout.render('App_body', { main: 'Shop' });
     },
   });
   FlowRouter.route('/contact', {
-    name: 'Involved',
+    name: 'utopiaHome',
     action() {
-      BlazeLayout.render('App_body', { main: 'Involved' });
+      BlazeLayout.render('App_body', { main: 'utopiaHome' });
     },
   });
   

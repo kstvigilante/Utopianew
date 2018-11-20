@@ -46,12 +46,12 @@ body{
 
 }
 
-.nav-link {
-  opacity: 1;  
-  font-family: Colfax-Medium;
+.navigation .active{
+  color: #3023AE;
   font-size: 14px;
-  color: #FFFFFF;
+  margin-right: 37px;
+  opacity: 1;
   letter-spacing: 1px;
-  opacity: 0.5;
   text-transform: uppercase;
+  font-family: Colfax Medium;
 }
