@@ -13,7 +13,6 @@ body{
       width: 100%;
       background-image: url("/img/Background5.png");
       background-repeat: no-repeat;
-      overflow: hidden;
   }
 
   .operate .head .utopia{
@@ -21,8 +20,8 @@ body{
     width: 100%;
     margin-top: 100px;
     margin-left: 40%;
-   background-image: url("/img/UtopiaLogo.png");
-   background-repeat: no-repeat;
+    background-image: url("/img/UtopiaLogo.png");
+    background-repeat: no-repeat;
     
   }
   
@@ -53,31 +52,29 @@ body{
   .heading{
     height: 150px;
     width: 100%;
-   margin-top: 300px;
-   margin-left: 30px;  
-font-family: Colfax;
-line-height: 48px;
-font-size: 32px;
-text-align: center;
-letter-spacing: 1px;
-text-transform: uppercase;
-margin-top: 96px;
-color: #FFFFFF;
+    font-family: Colfax;
+    line-height: 48px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 96px;
+    margin-left: 135px;
+    color: #FFFFFF;
   }
   .subdata{
 
-font-family: Colfax;
-line-height: 36px;
-font-size: 16px;
-text-align: center;
-letter-spacing: 1px;
-color: #FFFFFF;
+    font-family: Colfax;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
 
 
   }
   
   .gitbutton{
-     margin-left: 550px;
+     margin-left: 450px;
      margin-top: 20px;
      height: 51px;
      width: 255px; 
@@ -86,13 +83,76 @@ color: #FFFFFF;
      border-radius: 6px;
 
   }
-  .oval{
+  .myutopia{
       flex: 1;
       height: 250px;
-      background-image: url("/img/forimg.png");
+      background-image: url("/img/myutopia.png");
       background-repeat: no-repeat;
-      background-size: 163px 163px;
+      background-size: 163px 163px; 
   }
+  .legal{
+    flex: 1;
+    height: 250px;
+    background-image: url("/img/legal.png");
+    background-repeat: no-repeat;
+    background-size: 163px 163px; 
+}
+.business{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/business.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.finance{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/finance.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.public{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/servant.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.education{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/education.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.real{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/real.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.emergency{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/emergency.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.voting{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/voting.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
+.utopians{
+  flex: 1;
+  height: 250px;
+  background-image: url("/img/utopian.png");
+  background-repeat: no-repeat;
+  background-size: 163px 163px; 
+}
   .parentoval{
       margin-left: 150px;
       margin-right: 150px;
@@ -102,38 +162,38 @@ color: #FFFFFF;
   }
   .text{
 
-margin-top: 180px;
-margin-right: 50px;
-font-family: Colfax;
-line-height: 24px;
-font-size: 16px;
-text-align: center;
-letter-spacing: 0.6px;
-text-transform: uppercase;
+      margin-top: 180px;
+      margin-right: 50px;
+      font-family: Colfax;
+      line-height: 24px;
+      font-size: 16px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
 
-color: #FFFFFF;
+      color: #FFFFFF;
   }
 .text2{
-margin-top: 120px;
-font-family: Colfax;
-line-height: 48px;
-font-size: 32px;
-text-align: center;
-letter-spacing: 1px;
-text-transform: uppercase;
+      margin-top: 120px;
+      font-family: Colfax;
+      line-height: 48px;
+      font-size: 32px;
+      text-align: center;
+      letter-spacing: 1px;
+      text-transform: uppercase;
 
-color: #FFFFFF;
+      color: #FFFFFF;
 
   }
  .lowertext{
      margin-top: 50px;
- }
+  }
  .uppertext{
-font-family: Colfax;
-line-height: 50px;
-font-size: 33px;
-text-align: center;
-letter-spacing: 0.6px;
-text-transform: uppercase;
-color: #FD2A2A;
- }
+      font-family: Colfax;
+      line-height: 50px;
+      font-size: 33px;
+      text-align: center;
+      letter-spacing: 0.6px;
+      text-transform: uppercase;
+      color: #FD2A2A;
+  }
