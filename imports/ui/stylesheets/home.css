@@ -238,11 +238,31 @@ body{
     flex: 3;
 }
 
-.content .link-button button{
+
+.content .link-button .button-style{
     width:255px;
     height: 51px;
     border: 0px;
     font-weight: bold;
-    background: white;
+    box-shadow: 0px 0px 3px #ccc;
+    font-size: 14px;
+    line-height: 15px;
+    background: transparent;
+}
+
+.right-arrow{
+    font-size: 32px;
+    margin-left: 2%;
+}
+
+.citizen-button{
+    color: white;
+    font-size: 14px;
+    line-height: 15px;
+    background-image: linear-gradient(to right, #3023AE ,#C86DD7);
+    width:255px;
+    height: 51px;
+    border: 0px;
+    font-weight: bold;
     box-shadow: 0px 0px 3px #ccc;
 }
