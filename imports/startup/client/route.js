@@ -29,22 +29,22 @@ FlowRouter.route('/utopiaos', {
       BlazeLayout.render('App_body', { main: 'utopiaMapPage' });
     },
   });
-  FlowRouter.route('/consti', {
+ /*  FlowRouter.route('/consti', {
     name: 'utopiaHome',
     action() {
       BlazeLayout.render('App_body', { main: 'utopiaHome' });
     },
-  });
+  }); */
   FlowRouter.route('/shop', {
     name: 'Shop',
     action() {
       BlazeLayout.render('App_body', { main: 'Shop' });
     },
   });
-  FlowRouter.route('/contact', {
+ /*  FlowRouter.route('/contact', {
     name: 'utopiaHome',
     action() {
       BlazeLayout.render('App_body', { main: 'utopiaHome' });
     },
   });
-  
+   */

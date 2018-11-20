@@ -3,6 +3,11 @@ body{
     margin: 0px;
     color: white;
   }
+  .mainhead{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
  .head{
     height: 300px;
     width: 100%;
@@ -47,7 +52,7 @@ body{
 }
 
 .navigation .active{
-  color: #3023AE;
+  color: white;
   font-size: 14px;
   margin-right: 37px;
   opacity: 1;

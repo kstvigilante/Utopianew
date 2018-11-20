@@ -3,30 +3,49 @@ body{
     margin: 0px;
     color: white;
   }
-  .main{
+  .mainshophead{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .mainsh{
     height: 1500px;
     background: #04030F;
+    display: flex;
+    justify-content: center;
 }
-
-.utopiaimg{
+.utopiabox{
     margin: 0px;
     padding: 0px;
-    height: 510px;
-    width: 544px;
+    height: 350px;
+    width: 270px;
+    display: flex;
+}
+.utopiaimg{
+    height: 200px;
+    width: 220px;
     background-image: url("/img/utopia.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin-left: 300px;
+    /* background: aquamarine; */
 }
 .tag{
-    margin-top: 75px;
-margin-left: 70px;
-font-family: Colfax;
-line-height: 15px;
-font-size: 30px;
-letter-spacing: 1px;
-text-transform: uppercase;
+    margin-top: 20px;;
+  /*   font-family: Colfax;
+    line-height: 16px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase; */
+    color: #FFFFFF;
+    background-color: aqua;
+}
+.subtag{
+    margin-top: 80%;
 
-color: #F2F2F2;
-
+    font-family: Colfax;
+    line-height: 16px;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #FFFFFF;
 }

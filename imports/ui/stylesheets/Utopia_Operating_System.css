@@ -3,6 +3,11 @@ body{
     margin: 0px;
     color: white;
   }
+  .mainoperate{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
   .operate{
       height: 2149px;
       width: 100%;
@@ -31,15 +36,18 @@ body{
 
 
   }
-  
+  .git{
+    display: flex;
+    justify-content: center;
+  }
   .gitbutton{
-     margin-left: 450px;
      margin-top: 20px;
      height: 51px;
      width: 255px; 
      background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
      box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
      border-radius: 6px;
+     border: 0px;
 
   }
   .myutopia{
