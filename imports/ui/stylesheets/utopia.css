@@ -792,11 +792,12 @@ body {
   margin-left:2%;
 }
 .decentralization-head-text {
-  max-width: 600px;
+  width: 600px;
   font-family: Colfax;
   line-height: 48px;
   font-size: 32px;
   letter-spacing: 1px;
+  margin-left:9.38%;
   text-transform: uppercase;
   color: #ffffff;
   flex: 1;
@@ -806,6 +807,7 @@ body {
   line-height: 36px;
   font-size: 16px;
   letter-spacing: 1px;
+  margin-left:9.38%;
   color: #ffffff;
 }
 .utopiaImagePic2 {
@@ -824,7 +826,6 @@ body {
   background-image: url("/img/Illustration1.png");
   background-repeat: no-repeat;
   overflow: hidden;
-  margin-top: 25px;
   z-index: 1;
   flex: 1;
   
