@@ -5,6 +5,8 @@ import "../../ui/pages/main/Utopia_Operating_System.js";
 import "../../ui/pages/main/Involved.js";
 import "../../ui/pages/main/utopiaMapPage.js";
 import "../../ui/pages/main/Shop.js";
+import "../../ui/pages/main/Contact.js";
+import "../../ui/pages/main/Constitution";
 FlowRouter.route('/', {
     name: 'utopiaHome',
     action() {
@@ -29,22 +31,22 @@ FlowRouter.route('/utopiaos', {
       BlazeLayout.render('App_body', { main: 'utopiaMapPage' });
     },
   });
- /*  FlowRouter.route('/consti', {
-    name: 'utopiaHome',
+  FlowRouter.route('/constitution', {
+    name: 'Constitution',
     action() {
-      BlazeLayout.render('App_body', { main: 'utopiaHome' });
+      BlazeLayout.render('App_body', { main: 'constitution' });
     },
-  }); */
+  });
   FlowRouter.route('/shop', {
     name: 'Shop',
     action() {
       BlazeLayout.render('App_body', { main: 'Shop' });
     },
   });
- /*  FlowRouter.route('/contact', {
-    name: 'utopiaHome',
+  FlowRouter.route('/contact', {
+    name: 'Contact',
     action() {
-      BlazeLayout.render('App_body', { main: 'utopiaHome' });
+      BlazeLayout.render('App_body', { main: 'contact' });
     },
   });
-   */
+  
