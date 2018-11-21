@@ -757,7 +757,7 @@ body {
 }
 .aboutUtopiaSubHead {
   margin-top: 35px;
-  font-family: Colfax;
+  font-family: Colfax Regular;
   line-height: 36px;
   font-size: 16px;
   text-align: center;
@@ -777,8 +777,8 @@ body {
 }
 
 .utopiaVideo .video {
-  width: 100%;
-  height: 600px;
+  width: 940px;
+  height: 544px;
   background: grey;
   margin-top: 8%;
 }
@@ -793,21 +793,21 @@ body {
 }
 .decentralization-head-text {
   width: 600px;
-  font-family: Colfax;
-  line-height: 48px;
-  font-size: 32px;
+  font-family: Colfax Medium;
+  line-height: 38px;
+  font-size: 24px;
   letter-spacing: 1px;
-  margin-left: 9.38%;
+  margin-left: 22%;
   text-transform: uppercase;
   color: #ffffff;
   flex: 1;
 }
 .decentralization-subhead-text {
-  font-family: Colfax;
-  line-height: 36px;
+  font-family: Colfax Regular;
+  line-height: 30px;
   font-size: 16px;
   letter-spacing: 1px;
-  margin-left: 9.38%;
+  margin-left: 22%;
   color: #ffffff;
 }
 .utopiaImagePic2 {
