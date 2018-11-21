@@ -35,7 +35,7 @@ body{
 .tag{
     margin-top: 100%;
     margin-left: 13%;
-    font-family: Colfax;
+    font-family: Colfax Medium;
     line-height: 16px;
     font-size: 16px;
     letter-spacing: 1px;
@@ -45,7 +45,7 @@ body{
 .subtag{
     margin-top: 5%;
     margin-left: 25%;
-    font-family: Colfax;
+    font-family: Colfax Medium;
     line-height: 16px;
     font-size: 16px;
     letter-spacing: 1px;

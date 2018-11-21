@@ -17,7 +17,7 @@ body{
     margin: 0px;
     padding: 0px;
     height: 150px;
-    font-family: Colfax;
+    font-family: Colfax Medium;
     line-height: 48px;
     font-size: 32px;
     letter-spacing: 1px;
@@ -27,7 +27,7 @@ body{
   }
   .subdata{
 
-    font-family: Colfax;
+    font-family: Colfax Regular;
     line-height: 36px;
     font-size: 16px;
     text-align: center;
@@ -48,7 +48,7 @@ body{
      box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
      border-radius: 6px;
      border: 0px;
-    font-family: Colfax;
+    font-family: Colfax Medium;
     line-height: 12px;
     font-size: 14px;
     letter-spacing: 0.6px;
@@ -141,7 +141,7 @@ body{
 
       margin-top: 180px;
       margin-right: 50px;
-      font-family: Colfax;
+      font-family: Colfax Medium;
       line-height: 24px;
       font-size: 16px;
       text-align: center;
@@ -152,7 +152,7 @@ body{
   }
 .text2{
       margin-top: 120px;
-      font-family: Colfax;
+      font-family: Colfax Medium;
       line-height: 48px;
       font-size: 32px;
       text-align: center;
@@ -164,13 +164,4 @@ body{
   }
  .lowertext{
      margin-top: 50px;
-  }
- .uppertext{
-      font-family: Colfax;
-      line-height: 50px;
-      font-size: 33px;
-      text-align: center;
-      letter-spacing: 0.6px;
-      text-transform: uppercase;
-      color: #FD2A2A;
   }

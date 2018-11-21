@@ -10,28 +10,25 @@ body{
   }
  .head{
     height: 300px;
-    width: 100%;
     background-image: url("/img/Background5.png");
     background-repeat: no-repeat;
     overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
+.utopialogohead{
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  justify-content: center;
+}
 .utopia{
+  margin-left: 10px;
   height: 100px;
-  width: 100%;
-  margin-top: 100px;
-  margin-left: 42%;
+  width: 200px;
   background-image: url("/img/UtopiaLogo.png");
   background-repeat: no-repeat;
-    
-}
-
-.insideutopia{
-  height:59px;
-  width:204px;
-  border: 2px solid  #3023AE  ;
-  box-shadow: 0px 2px 100px rgba(0, 0, 0, 0.2);
-  border-radius: 4px; 
 }
 .navigation{
   width: 100%;
@@ -40,6 +37,8 @@ body{
   justify-content: center;
 }
 .navigation a{
+  /* margin-left: auto;
+  margin-right: auto; */
   text-decoration: none;
   color: white;
   font-size: 14px;
