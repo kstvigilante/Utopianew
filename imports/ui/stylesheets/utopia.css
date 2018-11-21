@@ -744,6 +744,9 @@ body {
   max-width: 100%;
   background-image: url("/img/Background5.png");
 }
+.head-subhead-textbox{
+  margin-left: 15%;
+}
 .aboutUtopiaHead {
   margin: 0px;
   padding: 0px;
