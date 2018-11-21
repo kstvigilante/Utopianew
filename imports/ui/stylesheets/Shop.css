@@ -10,7 +10,7 @@ body{
     margin-right: auto;
   }
   .mainsh{
-    height: 1500px;
+    padding-bottom: 30%;
     background: #04030F;
     display: flex;
     justify-content: center;
