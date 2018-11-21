@@ -15,7 +15,7 @@ body{
     overflow: hidden;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
 }
 .utopialogohead{
   flex:1;
@@ -35,7 +35,7 @@ body{
   width: 90%;
   height: 17px;
   display: flex;
-  justify-content: space-around;
+  justify-content:space-around;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,7 +45,6 @@ body{
   text-decoration: none;
   color: white;
   font-size: 14px;
-  margin-right: 37px;
   opacity: 0.5;
   letter-spacing: 1px;
   text-transform: uppercase;
@@ -56,7 +55,6 @@ body{
 .navigation .active{
   color: white;
   font-size: 14px;
-  margin-right: 37px;
   opacity: 1;
   letter-spacing: 1px;
   text-transform: uppercase;
