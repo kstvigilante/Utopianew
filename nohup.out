@@ -71,4 +71,4 @@ specify an alternative port with --port <port>.
 
 => Server modified -- restarting...                                   => Meteor server restarted
 => Server modified -- restarting...                                   => Meteor server restarted
-=> Client modified -- refreshing=> Client modified -- refreshing (x2)
+=> Client modified -- refreshing=> Client modified -- refreshing (x2)=> Client modified -- refreshing (x3)
