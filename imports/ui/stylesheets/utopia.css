@@ -739,13 +739,12 @@ body {
   margin-left: auto;
   margin-right: auto;
   max-width: 1140px;
+  width:90%;
 }
 .utopiaHomeCss {
+  margin-top:3%;
   max-width: 100%;
   background-image: url("/img/Background5.png");
-}
-.head-subhead-textbox{
-  margin-left: 15%;
 }
 .aboutUtopiaHead {
   margin: 0px;
@@ -774,62 +773,62 @@ body {
 }
 
 .utopiaVideo .wrapper {
-  width: 68%;
+  width: 90%;
   margin: 2% auto;
   border-collapse: separate;
 }
 
 .utopiaVideo .video {
-  width: 940px;
+  width: 100%;
   height: 544px;
   background: grey;
   margin-top: 8%;
 }
 
 .utopia-text-box {
-  max-width: 100%;
+  width: 90%;
+  margin-left: auto;
+  margin-right:auto;
   margin-top: 150px;
   display: flex;
-  justify-content: center;
   padding-bottom: 10px;
-  margin-left: 2%;
+
+}
+.utopia-text-box div{
+  flex:1;
 }
 .decentralization-head-text {
-  width: 600px;
   font-family: Colfax Medium;
   line-height: 38px;
   font-size: 24px;
   letter-spacing: 1px;
-  margin-left: 22%;
   text-transform: uppercase;
   color: #ffffff;
-  flex: 1;
+  margin-top:7%;
+  
 }
 .decentralization-subhead-text {
   font-family: Colfax Regular;
   line-height: 30px;
   font-size: 16px;
   letter-spacing: 1px;
-  margin-left: 22%;
   color: #ffffff;
+  margin-top:3%;
 }
 .utopiaImagePic2 {
-  max-width: 470px;
+  flex: 1;
+  width:513px;
   height: 308px;
   background-image: url("/img/utopiaIllustration1.png");
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  flex: 1;
+  background-size: 100% 100%;
 }
+
 .utopiaImagePic3 {
-  max-width: 470px;
+  flex: 1;
+  max-width: 513px;
   height: 308px;
   background-image: url("/img/Illustration1.png");
-  background-repeat: no-repeat;
-  overflow: hidden;
-  z-index: 1;
-  flex: 1;
+  background-size: 100% 100%;
 }
 
 .newIllustrationBox {
