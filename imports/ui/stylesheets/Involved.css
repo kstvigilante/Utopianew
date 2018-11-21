@@ -72,6 +72,7 @@ margin-top: 10px;
 
 .div .right{
 flex: 3;
+display: flex;
 }
 .citizenbutton{
 margin-top: 45px;
