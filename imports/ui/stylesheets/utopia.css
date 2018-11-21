@@ -738,7 +738,7 @@ body {
 .utopiaHomeWrapper{
   margin-left:auto;
   margin-right:auto;
-  max-width: 90%;
+  max-width: 1140px;;
 }
 .utopiaHomeCss {
   max-width: 100%;
@@ -850,7 +850,7 @@ color: #000000;
 
 /* ============================== Map ======================= */
 .mapWrapper{
-  max-width:100%;
+  max-width: 1140px;
   background-image: url("/img/Background5.png");
   background-size: 100% 100%;
 }
