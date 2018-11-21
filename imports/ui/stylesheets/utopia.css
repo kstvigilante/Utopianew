@@ -850,14 +850,17 @@ color: #000000;
 
 /* ============================== Map ======================= */
 .mapWrapper{
-  max-width:100%;
-  background-image: url("/img/Background5.png");
-  background-size: 100% 100%;
-}
-.mapText {
-  
   margin-left: auto;
   margin-right: auto;
+  width:90%;
+  
+}
+.mapText {
+  width:100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("/img/Background5.png");
+  
 }
 .wikiButton {
   max-width: 167px;
