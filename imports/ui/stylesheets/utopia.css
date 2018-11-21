@@ -742,7 +742,7 @@ body {
   width:90%;
 }
 .utopiaHomeCss {
-  margin-top:3%;
+  margin-top:10%;
   max-width: 100%;
   background-image: url("/img/Background5.png");
 }
@@ -851,9 +851,8 @@ body {
 /* ============================== Map ======================= */
 .mapText {
   width: 100%;
-  margin-left: auto;
-  margin-right: auto;
   background-image: url("/img/Background5.png");
+  margin-top:10%;
 }
 .wikiButton {
   width: 179px;
