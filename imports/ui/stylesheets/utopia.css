@@ -735,9 +735,15 @@ body {
 }
 
 /* =========================== Utopia Home ==================================== */
+<<<<<<< HEAD
+.utopiaHomeWrapper{
+  margin-left:auto;
+  margin-right:auto;
+=======
 .container {
   margin-left: auto;
   margin-right: auto;
+>>>>>>> m1
   max-width: 1140px;
 }
 .utopiaHomeCss {
