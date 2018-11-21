@@ -4,8 +4,8 @@ body{
     color: white;
     background: #04030F;
   }
-  .mainshophead{
-    width: 90%;
+  .container{
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
   }
