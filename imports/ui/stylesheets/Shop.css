@@ -1,81 +1,82 @@
-body{
-    padding: 0.1px;
-    margin: 0px;
-    color: white;
-    background: #04030F;
-  }
-  .container{
-    max-width: 1140px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  .mainsh{
-    padding-bottom: 30%;
-    background: #04030F;
-    display: flex;
-    justify-content: center;
+body {
+  padding: 0.1px;
+  margin: 0px;
+  color: white;
+  background: #04030f;
 }
-.utopiabox{
-    margin: 0px;
-    padding: 0px;
-    height: 350px;
-    width: 270px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.container {
+  max-width: 1140px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.utopiaimg{
-    height: 200px;
-    width: 220px;
-    background-image: url("/img/utopia.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    /* background: aquamarine; */
+.mainsh {
+  padding-bottom: 30%;
+  margin-top:10%;
+  background: #04030f;
+  display: flex;
+  justify-content: center;
 }
-.tag{
-    margin-top: 100%;
-    margin-left: 13%;
-    font-family: Colfax Medium;
-    line-height: 16px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.utopiabox {
+  padding: 0px;
+  height: 350px;
+  width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
-.subtag{
-    margin-top: 5%;
-    margin-left: 25%;
-    font-family: Colfax Medium;
-    line-height: 16px;
-    font-size: 16px;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    color: #FFFFFF;
+.utopiaimg {
+  height: 200px;
+  width: 220px;
+  background-image: url("/img/utopia.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left:auto;
+  margin-right:auto;
 }
-.contactbutton{
-    height: 51px;
-    width: 255px; 
-    background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
-    box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
-    border-radius: 6px;
-    border: 0px;
-    font-family: Colfax Medium;
-    line-height: 12px;
-    font-size: 14px;
-    letter-spacing: 0.6px;
-    text-transform: uppercase;
+.tag {
+  margin-top: 100%;
+  margin-left: 13%;
+  font-family: Colfax Medium;
+  line-height: 16px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.subtag {
+  margin-top: 5%;
+  margin-left: 25%;
+  font-family: Colfax Medium;
+  line-height: 16px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.contactbutton {
+  margin-top: 10%;
+  height: 51px;
+  width: 255px;
+  background: linear-gradient(169.59deg, #3023ae -36.97%, #c86dd7 148.62%);
+  box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+  border-radius: 6px;
+  border: 0px;
+  font-family: Colfax Medium;
+  line-height: 12px;
+  font-size: 14px;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
 
-    color: #FFFFFF;
+  color: #ffffff;
 }
-.constitext{
-    font-family: Colfax Medium;
-    line-height: 61px;
-    font-size: 33px;
-    text-align: center;
-    letter-spacing: 1px;
-    text-transform: uppercase;
+.constitext {
+  margin-top: 10%;
+  font-family: Colfax Medium;
+  line-height: 61px;
+  font-size: 33px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
-    color: #F2F2F2;
-
-
+  color: #f2f2f2;
 }

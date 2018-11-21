@@ -5,28 +5,35 @@ body{
   }
   .container{
     max-width: 1140px;
+    width:90%;
     margin-left: auto;
     margin-right: auto;
   }
   .operate{
       padding-bottom: 10%;
-      width: 100%;
+      margin-top:10%;
+      max-width: 100%;
       background: #04030F;
   }
   .headingos{
     margin: 0px;
     padding: 0px;
-    height: 150px;
     font-family: Colfax Medium;
     line-height: 48px;
     font-size: 32px;
     letter-spacing: 1px;
     text-transform: uppercase;
-    margin-left: 25%;
+    margin-left: auto;
+    margin-right:auto;
     color: #FFFFFF;
   }
-  .subdata{
 
+  .headingos p{
+    margin:0px;
+    text-align: center;
+  }
+  .subdata{
+    margin-top: 35px;
     font-family: Colfax Regular;
     line-height: 36px;
     font-size: 16px;
@@ -41,7 +48,7 @@ body{
     justify-content: center;
   }
   .gitbutton{
-     margin-top: 20px;
+     margin-top: 80px;
      height: 51px;
      width: 255px; 
      background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);

@@ -87,3 +87,4 @@ Running two copies of Meteor in the same application directory
 will not work. If something else is using port 3005, you can
 specify an alternative port with --port <port>.
 => Client modified -- refreshing (x8)
+=> Server modified -- restarting...                                   => Meteor server restarted
