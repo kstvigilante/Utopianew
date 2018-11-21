@@ -4,13 +4,13 @@ body{
     color: white;
     background: #04030F;
   }
-  .mainshophead{
-    max-width: 1140px;;
+  .container{
+    max-width: 1140px;
     margin-left: auto;
     margin-right: auto;
   }
   .mainsh{
-    height: 1500px;
+    padding-bottom: 30%;
     background: #04030F;
     display: flex;
     justify-content: center;

@@ -1,15 +1,20 @@
 body{
-    padding: 0.1px;
+    padding: 0px;
     margin: 0px;
     color: white;
   }
+<<<<<<< HEAD
   .mainoperate{
     max-width: 1140px;;
+=======
+  .container{
+    max-width: 1140px;
+>>>>>>> 720fa8ce5514c9fa5e4764fb67c13d141a455c8e
     margin-left: auto;
     margin-right: auto;
   }
   .operate{
-      height: 2149px;
+      padding-bottom: 10%;
       width: 100%;
       background: #04030F;
   }
@@ -48,6 +53,15 @@ body{
      box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
      border-radius: 6px;
      border: 0px;
+    font-family: Colfax;
+    line-height: 12px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
 
   }
   .myutopia{
