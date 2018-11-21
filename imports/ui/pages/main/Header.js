@@ -10,16 +10,16 @@ Template.Head.events({
     "click .location": function(){
         FlowRouter.go('/location');
     },
-    "click .consti": function(){
-        FlowRouter.go('/consti');
-    },
+    /* "click .consti": function(){
+        FlowRouter.go('/constitution');
+    }, */
     "click .involved": function(){
         FlowRouter.go('/Involved');
     },
     "click .shop": function(){
         FlowRouter.go('/shop');
     },
-    "click .contact": function(){
+    /* "click .contact": function(){
         FlowRouter.go('/contact');
-    }
+    } */
 });
