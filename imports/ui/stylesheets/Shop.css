@@ -52,3 +52,30 @@ body{
     text-transform: uppercase;
     color: #FFFFFF;
 }
+.contactbutton{
+    height: 51px;
+    width: 255px; 
+    background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
+    box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    border: 0px;
+    font-family: Colfax Medium;
+    line-height: 12px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+.constitext{
+font-family: Colfax Medium;
+line-height: 61px;
+font-size: 33px;
+text-align: center;
+letter-spacing: 1px;
+text-transform: uppercase;
+
+color: #F2F2F2;
+
+
+}
