@@ -88,3 +88,19 @@ will not work. If something else is using port 3005, you can
 specify an alternative port with --port <port>.
 => Client modified -- refreshing (x8)
 => Server modified -- restarting...                                   => Meteor server restarted
+=> Client modified -- refreshingCan't listen on port 3005. Perhaps another Meteor is running?
+
+Running two copies of Meteor in the same application directory
+will not work. If something else is using port 3005, you can
+specify an alternative port with --port <port>.
+=> Client modified -- refreshing (x2)Can't listen on port 3005. Perhaps another Meteor is running?
+
+Running two copies of Meteor in the same application directory
+will not work. If something else is using port 3005, you can
+specify an alternative port with --port <port>.
+Can't listen on port 3005. Perhaps another Meteor is running?
+
+Running two copies of Meteor in the same application directory
+will not work. If something else is using port 3005, you can
+specify an alternative port with --port <port>.
+=> Client modified -- refreshing (x3)
