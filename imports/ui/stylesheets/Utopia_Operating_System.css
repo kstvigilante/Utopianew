@@ -59,25 +59,6 @@ body {
   letter-spacing: 0.6px;
   text-transform: uppercase;
 
-<<<<<<< HEAD
-  color: #ffffff;
-}
-.myutopia {
-  flex: 1;
-  height: 250px;
-  background-image: url("/img/myutopia.png");
-  background-repeat: no-repeat;
-  background-size: 163px 163px;
-}
-.legal {
-  flex: 1;
-  height: 250px;
-  background-image: url("/img/legal.png");
-  background-repeat: no-repeat;
-  background-size: 163px 163px;
-}
-.business {
-=======
   }
   .maindata{
     flex: 1;
@@ -104,16 +85,11 @@ body {
 
 }
 .business{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   flex: 1;
   height: 250px;
   width: 163px;
   background-image: url("/img/business.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-=======
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
 }
 .finance {
   flex: 1;
@@ -121,10 +97,6 @@ body {
   width: 163px;
   background-image: url("/img/finance.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-=======
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
 }
 .public {
   flex: 1;
@@ -132,93 +104,36 @@ body {
   width: 163px;
   background-image: url("/img/servant.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.education {
-  flex: 1;
-=======
 }
 .education{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   height: 250px;
   width: 163px;
   background-image: url("/img/education.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.real {
-  flex: 1;
-=======
 }
 .real{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   height: 250px;
   width: 163px;
   background-image: url("/img/real.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.emergency {
-  flex: 1;
-=======
 }
 .emergency{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   height: 250px;
   width: 163px;
   background-image: url("/img/emergency.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.voting {
-  flex: 1;
-=======
 }
 .voting{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   height: 250px;
   width: 163px;
   background-image: url("/img/voting.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.utopians {
-  flex: 1;
-=======
 }
 .utopians{
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
   height: 250px;
   width: 163px;
   background-image: url("/img/utopian.png");
   background-repeat: no-repeat;
-<<<<<<< HEAD
-  background-size: 163px 163px;
-}
-.parentoval {
-  margin-top: 100px;
-  margin-left: 150px;
-  margin-right: 150px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.text {
-  margin-top: 180px;
-  margin-right: auto;
-  margin-left: auto;
-  font-family: Colfax Medium;
-  line-height: 24px;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
-=======
 }
   .parentoval{
       margin-top: 100px;
@@ -245,7 +160,6 @@ body {
       text-align: center;
       letter-spacing: 1px;
       text-transform: uppercase;
->>>>>>> 47027489cb9c63d8e93f2ce72179a3e77e50b85b
 
   color: #ffffff;
 }
