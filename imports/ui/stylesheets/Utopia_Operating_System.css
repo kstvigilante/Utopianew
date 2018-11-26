@@ -16,8 +16,8 @@ body{
       background: #04030F;
   }
   .headingos{
-    margin: 0px;
-    padding: 0px;
+ /*    margin: 0px;
+    padding: 0px; */
     font-family: Colfax Medium;
     line-height: 48px;
     font-size: 32px;
@@ -71,82 +71,76 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
+    margin-left: auto;
+    margin-right:auto;
   }
-  .myutopia{
-      flex: 1;
-      height: 250px;
+  .myutopia{  
+      height: 200px;
       width: 163px;
       background-image: url("/img/myutopia.png");
       background-repeat: no-repeat;
-     /*  background-size: 100% 100%; */
   }
   
   .legal{
-    flex: 1;
-    height: 250px;
+    height: 200px;
     width: 163px;
     background-image: url("/img/legal.png");
     background-repeat: no-repeat;
 
 }
 .business{
-  flex: 1;
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/business.png");
   background-repeat: no-repeat;
 }
 .finance{
-  flex: 1;
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/finance.png");
   background-repeat: no-repeat;
 }
 .public{
-  flex: 1;
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/servant.png");
   background-repeat: no-repeat;
 }
 .education{
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/education.png");
   background-repeat: no-repeat;
 }
 .real{
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/real.png");
   background-repeat: no-repeat;
 }
 .emergency{
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/emergency.png");
   background-repeat: no-repeat;
 }
 .voting{
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/voting.png");
   background-repeat: no-repeat;
 }
 .utopians{
-  height: 250px;
+  height: 200px;
   width: 163px;
   background-image: url("/img/utopian.png");
   background-repeat: no-repeat;
 }
   .parentoval{
       margin-top: 100px;
-      margin-left: auto;
-      margin-right: auto;
       display: flex;
-      max-width: 90%;
+      max-width: 100%;
   }
   .text{
       font-family: Colfax Medium;
@@ -173,3 +167,9 @@ body{
  .lowertext{
      margin-top: 50px;
   }
+.one{
+  font-size: 72px;
+  background: -webkit-linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
