@@ -1,3 +1,4 @@
+body{
     padding: 0px;
     margin: 0px;
     color: white;
@@ -15,8 +16,8 @@
       background: #04030F;
   }
   .headingos{
- /*    margin: 0px;
-    padding: 0px; */
+    margin: 0px;
+    padding: 0px;
     font-family: Colfax Medium;
     line-height: 48px;
     font-size: 32px;
@@ -63,82 +64,89 @@
     color: #FFFFFF;
 
 
+
   }
   .maindata{
     flex: 1;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-right:auto;
+    align-items: center; 
   }
-  .myutopia{  
-      height: 200px;
+  .myutopia{
+      flex: 1;
+      height: 250px;
       width: 163px;
       background-image: url("/img/myutopia.png");
       background-repeat: no-repeat;
+     /*  background-size: 100% 100%; */
   }
   
   .legal{
-    height: 200px;
+    flex: 1;
+    height: 250px;
     width: 163px;
     background-image: url("/img/legal.png");
     background-repeat: no-repeat;
 
 }
 .business{
-  height: 200px;
+  flex: 1;
+  height: 250px;
   width: 163px;
   background-image: url("/img/business.png");
   background-repeat: no-repeat;
 }
 .finance{
-  height: 200px;
+  flex: 1;
+  height: 250px;
   width: 163px;
   background-image: url("/img/finance.png");
   background-repeat: no-repeat;
 }
 .public{
-  height: 200px;
+  flex: 1;
+  height: 250px;
   width: 163px;
   background-image: url("/img/servant.png");
   background-repeat: no-repeat;
 }
 .education{
-  height: 200px;
+  height: 250px;
   width: 163px;
   background-image: url("/img/education.png");
   background-repeat: no-repeat;
 }
 .real{
-  height: 200px;
+  height: 250px;
   width: 163px;
   background-image: url("/img/real.png");
   background-repeat: no-repeat;
 }
 .emergency{
-  height: 200px;
+  height: 250px;
   width: 163px;
   background-image: url("/img/emergency.png");
   background-repeat: no-repeat;
 }
 .voting{
-  height: 200px;
+  height: 250px;
   width: 163px;
   background-image: url("/img/voting.png");
   background-repeat: no-repeat;
 }
 .utopians{
-  height: 200px;
+  height: 250px;
   width: 163px;
   background-image: url("/img/utopian.png");
   background-repeat: no-repeat;
 }
   .parentoval{
       margin-top: 100px;
+      margin-left: auto;
+      margin-right: auto;
       display: flex;
-      max-width: 100%;
+      max-width: 90%;
   }
   .text{
       font-family: Colfax Medium;
@@ -159,28 +167,9 @@
       letter-spacing: 1px;
       text-transform: uppercase;
 
-  color: #ffffff;
-}
-.text p {
-  border: 0px;
-  text-align: center;
-}
-.text2 {
-  margin-top: 120px;
-  font-family: Colfax Medium;
-  line-height: 48px;
-  font-size: 32px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+      color: #FFFFFF;
 
   }
  .lowertext{
      margin-top: 50px;
   }
-.one{
-  font-size: 72px;
-  background: -webkit-linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
