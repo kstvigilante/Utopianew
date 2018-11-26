@@ -67,27 +67,28 @@ body{
 
   }
   .maindata{
-    flex: 1;
+    flex: wrap;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
   }
   .myutopia{
       flex: 1;
-      height: 250px;
       width: 163px;
       background-image: url("/img/myutopia.png");
       background-repeat: no-repeat;
-     /*  background-size: 100% 100%; */
+      background-size: 100% 160px;
   }
   
   .legal{
     flex: 1;
-    height: 250px;
     width: 163px;
     background-image: url("/img/legal.png");
     background-repeat: no-repeat;
+    background-size: 100% 160px;
 
 }
 .business{
@@ -96,6 +97,7 @@ body{
   width: 163px;
   background-image: url("/img/business.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .finance{
   flex: 1;
@@ -103,6 +105,7 @@ body{
   width: 163px;
   background-image: url("/img/finance.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .public{
   flex: 1;
@@ -110,36 +113,42 @@ body{
   width: 163px;
   background-image: url("/img/servant.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .education{
   height: 250px;
   width: 163px;
   background-image: url("/img/education.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .real{
   height: 250px;
   width: 163px;
   background-image: url("/img/real.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .emergency{
   height: 250px;
   width: 163px;
   background-image: url("/img/emergency.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .voting{
   height: 250px;
   width: 163px;
   background-image: url("/img/voting.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
 .utopians{
   height: 250px;
   width: 163px;
   background-image: url("/img/utopian.png");
   background-repeat: no-repeat;
+  background-size: 100% 160px;
 }
   .parentoval{
       margin-top: 100px;

@@ -9,7 +9,7 @@ body{
     margin-right: auto;
   }
  .head{
-    height: 200px;
+    height: 350px;
     background-image: url("/img/Background5.png");
     background-repeat: no-repeat;
     overflow: hidden;
@@ -25,8 +25,8 @@ body{
   align-items: center;
 }
 .utopia{
-  height: 52px;
-  width: 144px;  
+  height: 130px;
+  width: 300px;  
   background-image: url("/img/UtopiaLogo.png");
   background-repeat: no-repeat;
 }
