@@ -1,4 +1,3 @@
-body{
     padding: 0px;
     margin: 0px;
     color: white;
@@ -62,7 +61,6 @@ body{
     text-transform: uppercase;
 
     color: #FFFFFF;
-
 
 
   }
@@ -161,7 +159,20 @@ body{
       letter-spacing: 1px;
       text-transform: uppercase;
 
-      color: #FFFFFF;
+  color: #ffffff;
+}
+.text p {
+  border: 0px;
+  text-align: center;
+}
+.text2 {
+  margin-top: 120px;
+  font-family: Colfax Medium;
+  line-height: 48px;
+  font-size: 32px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
 
   }
  .lowertext{
