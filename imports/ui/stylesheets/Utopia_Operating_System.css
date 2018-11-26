@@ -1,63 +1,69 @@
-body {
-  padding: 0px;
-  margin: 0px;
-  color: white;
-}
-.container {
-  max-width: 1140px;
-  width: 90%;
-  margin-left: auto;
-  margin-right: auto;
-}
-.operate {
-  padding-bottom: 10%;
-  margin-top: 10%;
-  max-width: 100%;
-  background: #04030f;
-}
-.headingos {
-  margin: 0px;
-  padding: 0px;
-  font-family: Colfax Medium;
-  line-height: 48px;
-  font-size: 32px;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  margin-left: auto;
-  margin-right: auto;
-  color: #ffffff;
-}
+body{
+    padding: 0px;
+    margin: 0px;
+    color: white;
+  }
+  .container{
+    max-width: 1140px;
+    width:90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .operate{
+      padding-bottom: 10%;
+      margin-top:10%;
+      max-width: 100%;
+      background: #04030F;
+  }
+  .headingos{
+    margin: 0px;
+    padding: 0px;
+    font-family: Colfax Medium;
+    line-height: 48px;
+    font-size: 32px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-left: auto;
+    margin-right:auto;
+    color: #FFFFFF;
+  }
 
-.headingos p {
-  margin: 0px;
-  text-align: center;
-}
-.subdata {
-  margin-top: 35px;
-  font-family: Colfax Regular;
-  line-height: 36px;
-  font-size: 16px;
-  text-align: center;
-  letter-spacing: 1px;
-  color: #ffffff;
-}
-.git {
-  display: flex;
-  justify-content: center;
-}
-.gitbutton {
-  margin-top: 80px;
-  height: 51px;
-  width: 255px;
-  background: linear-gradient(169.59deg, #3023ae -36.97%, #c86dd7 148.62%);
-  box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
-  border-radius: 6px;
-  border: 0px;
-  font-family: Colfax Medium;
-  line-height: 12px;
-  font-size: 14px;
-  letter-spacing: 0.6px;
-  text-transform: uppercase;
+  .headingos p{
+    margin:0px;
+    text-align: center;
+  }
+  .subdata{
+    margin-top: 35px;
+    font-family: Colfax Regular;
+    line-height: 36px;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+
+
+  }
+  .git{
+    display: flex;
+    justify-content: center;
+  }
+  .gitbutton{
+     margin-top: 80px;
+     height: 51px;
+     width: 255px; 
+     background: linear-gradient(169.59deg, #3023AE -36.97%, #C86DD7 148.62%);
+     box-shadow: 5px 2px 40px rgba(0, 0, 0, 0.2);
+     border-radius: 6px;
+     border: 0px;
+    font-family: Colfax Medium;
+    line-height: 12px;
+    font-size: 14px;
+    letter-spacing: 0.6px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+
+
 
   }
   .maindata{
@@ -91,14 +97,14 @@ body {
   background-image: url("/img/business.png");
   background-repeat: no-repeat;
 }
-.finance {
+.finance{
   flex: 1;
   height: 250px;
   width: 163px;
   background-image: url("/img/finance.png");
   background-repeat: no-repeat;
 }
-.public {
+.public{
   flex: 1;
   height: 250px;
   width: 163px;
@@ -161,23 +167,9 @@ body {
       letter-spacing: 1px;
       text-transform: uppercase;
 
-  color: #ffffff;
-}
-.text p {
-  border: 0px;
-  text-align: center;
-}
-.text2 {
-  margin-top: 120px;
-  font-family: Colfax Medium;
-  line-height: 48px;
-  font-size: 32px;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
+      color: #FFFFFF;
 
-  color: #ffffff;
-}
-.lowertext {
-  margin-top: 50px;
-}
+  }
+ .lowertext{
+     margin-top: 50px;
+  }
